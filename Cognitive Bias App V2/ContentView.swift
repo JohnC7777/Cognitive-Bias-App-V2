@@ -50,23 +50,26 @@ struct DetailView: View {
     
     var body: some View {
         
-        NavigationView{
-            List{
-                Section(header: Text("Description")) {
-                    Text("\(thisBiase.description)")
-                }
-                Section(header: Text("Thought Provoking Question")) {
-                    Text("\(thisBiase.question)")
-                }
-                Section(header: Text("How to Overcome")) {
-                    Text("\(thisBiase.overcome)")
-                }
-                Section(header: Text("Related Quote")) {
-                    Text("\(thisBiase.quote)")
-                }
+        List{
+            Section(header: Text("Description")) {
+                Text("\(thisBiase.description)")
             }
-            .navigationTitle("\(thisBiase.name)")
-        }/*
+            Section(header: Text("Thought Provoking Question")) {
+                Text("\(thisBiase.question)")
+            }
+            Section(header: Text("How to Overcome")) {
+                Text("\(thisBiase.overcome)")
+            }
+            Section(header: Text("Related Quote")) {
+                Text("\(thisBiase.quote)")
+            }
+            Section(header: Text("Example")) {
+                Text("\(thisBiase.example)")
+            }
+        }
+        .navigationTitle("\(thisBiase.name)")
+        .listStyle(.sidebar)
+        /*
         .onAppear(){
             for thing in BiasStruct.biases{
                 print(thing)
