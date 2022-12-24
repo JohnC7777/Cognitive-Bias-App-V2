@@ -11,6 +11,8 @@
 		240A477C29568A94007E5996 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240A477B29568A94007E5996 /* ContentView.swift */; };
 		240A477E29568A96007E5996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240A477D29568A96007E5996 /* Assets.xcassets */; };
 		240A478129568A96007E5996 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240A478029568A96007E5996 /* Preview Assets.xcassets */; };
+		240A478829568AA4007E5996 /* sample2.json in Resources */ = {isa = PBXBuildFile; fileRef = 240A478729568AA3007E5996 /* sample2.json */; };
+		240A478A29568AE0007E5996 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240A478929568AE0007E5996 /* JSONManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		240A477B29568A94007E5996 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		240A477D29568A96007E5996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		240A478029568A96007E5996 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		240A478729568AA3007E5996 /* sample2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample2.json; sourceTree = "<group>"; };
+		240A478929568AE0007E5996 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				240A477B29568A94007E5996 /* ContentView.swift */,
 				240A477D29568A96007E5996 /* Assets.xcassets */,
 				240A477F29568A96007E5996 /* Preview Content */,
+				240A478729568AA3007E5996 /* sample2.json */,
+				240A478929568AE0007E5996 /* JSONManager.swift */,
 			);
 			path = "Cognitive Bias App V2";
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				240A478129568A96007E5996 /* Preview Assets.xcassets in Resources */,
 				240A477E29568A96007E5996 /* Assets.xcassets in Resources */,
+				240A478829568AA4007E5996 /* sample2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240A478A29568AE0007E5996 /* JSONManager.swift in Sources */,
 				240A477C29568A94007E5996 /* ContentView.swift in Sources */,
 				240A477A29568A94007E5996 /* Cognitive_Bias_App_V2App.swift in Sources */,
 			);
