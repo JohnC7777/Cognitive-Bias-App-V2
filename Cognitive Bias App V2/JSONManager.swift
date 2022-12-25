@@ -21,7 +21,24 @@ struct Biase: Codable {
     var quote, description, question, overcome: String
     var resource: String
     var example: String
-
+    var isFaved: Bool? = false
+    
+    
+    //I created this to set isFaved to false
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.id = try container.decode(Int.self, forKey: .id)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.related = try container.decode([String].self, forKey: .related)
+        self.tags = try container.decode([String].self, forKey: .tags)
+        self.quote = try container.decode(String.self, forKey: .quote)
+        self.description = try container.decode(String.self, forKey: .description)
+        self.question = try container.decode(String.self, forKey: .question)
+        self.overcome = try container.decode(String.self, forKey: .overcome)
+        self.resource = try container.decode(String.self, forKey: .resource)
+        self.example = try container.decode(String.self, forKey: .example)
+        self.isFaved = false
+    }
 }
 
 /*
