@@ -15,7 +15,10 @@
       "description": "A group's decisions often contradict the opinions of individual members.",
       "question": "Have you ever disagreed with a group decision but went along with it, only to find out everyone else disagreed later?",
       "overcome": "The Abilene paradox occurs due to an individual's fears of rejection, being wrong, or conflict. In order to overcome the paradox, it is necessary for group members to encourage honest, open communication without judgment. A helpful truth to remember is that dissent and conflict are not inherently damaging, and that they can often aid in a group reaching an optimal solution for all of its members.",
-      "resource": "https://www.hrzone.com/hr-glossary/what-is-the-abilene-paradox https://www.theknowledge.io/abilene-paradox/",
+      "resource": [
+          "https://www.hrzone.com/hr-glossary/what-is-the-abilene-paradox",
+          "https://www.theknowledge.io/abilene-paradox/"
+      ],
       "example": "Ada and her friends are deciding where to have dinner. Ada wants to get sushi, but doesn't want to start an argument and compromises with the group on going to a diner. Later, at the diner, Ada mentions she wanted to get sushi, and discovers that all of her friends would've rather gone elsewhere than to the diner."
     },
     {
@@ -27,12 +30,13 @@
       "tags": [
 
       ],
-      "quote": "\"\"",
-      "description": "\"\"",
-      "question": "\"\"",
-      "overcome": "\"\"",
-      "resource": "\"\"",
-      "example": "\"\""
+      "quote": "",
+      "description": "",
+      "question": "",
+      "overcome": "",
+      "resource": [
+      ],
+      "example": ""
     },
     {
       "id": 3,
@@ -48,7 +52,8 @@
       "description": "We prefer doing something to doing nothing.",
       "question": "Have you ever been told that a minute spent doing nothing is a minute wasted?",
       "overcome": "Recognize that inaction is not avoidance, and that not all situations have a clear solution at the moment. Often, practicing restraint in a situation may be more effective than acting in the moment, as doing so may give you time for introspection and consulting trusted friends for advice.",
-      "resource": "\"\"",
+      "resource": [
+      ],
       "example": "\"You should do it! You only live once!\""
     }
   ]
