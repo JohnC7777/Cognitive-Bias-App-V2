@@ -11,15 +11,21 @@
         "communication",
         "leadership"
       ],
-      "quote": "\"A good manager doesn't try to eliminate conflict; he tries to keep it from wasting the energies of his people. If you're the boss and your people fight you openly when they think that you are wrong--that's healthy.\" - Robert Townsend",
+      "quote": [
+        "\"A good manager doesn't try to eliminate conflict; he tries to keep it from wasting the energies of his people. If you're the boss and your people fight you openly when they think that you are wrong--that's healthy.\" - Robert Townsend"
+      ],
       "description": "A group's decisions often contradict the opinions of individual members.",
-      "question": "Have you ever disagreed with a group decision but went along with it, only to find out everyone else disagreed later?",
+      "question": [
+          "Have you ever disagreed with a group decision but went along with it, only to find out everyone else disagreed later?"
+      ],
       "overcome": "The Abilene paradox occurs due to an individual's fears of rejection, being wrong, or conflict. In order to overcome the paradox, it is necessary for group members to encourage honest, open communication without judgment. A helpful truth to remember is that dissent and conflict are not inherently damaging, and that they can often aid in a group reaching an optimal solution for all of its members.",
       "resource": [
-          "https://www.hrzone.com/hr-glossary/what-is-the-abilene-paradox",
-          "https://www.theknowledge.io/abilene-paradox/"
+        "https://www.hrzone.com/hr-glossary/what-is-the-abilene-paradox",
+        "https://www.theknowledge.io/abilene-paradox/"
       ],
-      "example": "Ada and her friends are deciding where to have dinner. Ada wants to get sushi, but doesn't want to start an argument and compromises with the group on going to a diner. Later, at the diner, Ada mentions she wanted to get sushi, and discovers that all of her friends would've rather gone elsewhere than to the diner."
+      "example": [
+          "Ada and her friends are deciding where to have dinner. Ada wants to get sushi, but doesn't want to start an argument and compromises with the group on going to a diner. Later, at the diner, Ada mentions she wanted to get sushi, and discovers that all of her friends would've rather gone elsewhere than to the diner."
+      ]
     },
     {
       "id": 2,
@@ -30,13 +36,18 @@
       "tags": [
 
       ],
-      "quote": "",
+      "quote": [
+
+      ],
       "description": "",
-      "question": "",
+      "question": [
+      ],
       "overcome": "",
       "resource": [
+
       ],
-      "example": ""
+      "example": [
+      ]
     },
     {
       "id": 3,
@@ -48,13 +59,60 @@
         "action ",
         "inaction"
       ],
-      "quote": "\"Life was always a matter of waiting for the right moment to act.\" - Paulo Coelho",
+      "quote": [
+        "\"Life was always a matter of waiting for the right moment to act.\" - Paulo Coelho"
+      ],
       "description": "We prefer doing something to doing nothing.",
-      "question": "Have you ever been told that a minute spent doing nothing is a minute wasted?",
+      "question": [
+          "Have you ever been told that a minute spent doing nothing is a minute wasted?"
+      ],
       "overcome": "Recognize that inaction is not avoidance, and that not all situations have a clear solution at the moment. Often, practicing restraint in a situation may be more effective than acting in the moment, as doing so may give you time for introspection and consulting trusted friends for advice.",
       "resource": [
+
       ],
-      "example": "\"You should do it! You only live once!\""
+      "example": [
+          "\"You should do it! You only live once!\""
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Automation bias",
+      "related": [
+
+      ],
+      "tags": [
+        "Memory",
+        "learning",
+        "belief",
+        "robots trust",
+        "artificial intelligence",
+        "reliance",
+        "machines"
+      ],
+      "quote": [
+        "\"Automation does not need to be our enemy, I think machines can make life easier for men, if men do not let the machines dominate them.\" - JFK",
+        "“One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man.” - Elbert Hubbard",
+        "“Automation applied to an inefficient operation will magnify the inefficiency.” - Bill Gates",
+        "“I hope the guy who invented autocorrect burns in hello” - Unknown",
+        "“I know a lot about artificial intelligence, but not as much as it knows about me.” - Dave Waters"
+      ],
+      "description": "Automation bias occurs when we rely on automated systems, trusting too much in their decisions rather than our own. By assuming that a machine is always right, we second guess ourselves, and are less likely to correct the mistakes we notice that are made by the machine. \n\nThe negative effects of this bias can range from trusting an incorrect spell check replacement to overlooking errors in large systems that rely on automated warnings, such as regional weather alerts and autopilot for cars and planes.\n\nWhile automation has been extremely helpful in many realms of our life, including transportation, health, and communication, we need to make sure that we don’t become complacent, and that we can still survive if these systems are flawed or fail us.",
+      "question": [
+          "Do you remember a time that Google maps took you the wrong way?",
+          "How many of your friends’ telephone numbers do you remember?",
+          "Has anyone ever told you that your last name was spelled incorrectly? If so, were they a human or a machine?"
+      ],
+      "overcome": "Automation bias may be overcome by preventing situations where machine reliance is tempting. Simply giving yourself enough time to proofread your emails or checking for traffic updates outside of your directions app can prevent overreliance on imperfect systems. Treat automation as \"assistance\", rather than directive. \n\n\n\nThis bias may be overcome by treating automation as assistance in situations where machine reliance is tempting. Simply giving yourself enough time to proofread your emails or checking for traffic updates outside of your directions app can prevent overreliance on imperfect systems. \n\nFor companies that build automated systems, safety training programs need to be implemented. By knowing how to correctly monitor and maintain the system, workers can feel empowered to recognize when errors appear.",
+      "resource": [
+        "https://www.medpro.com/artificial-intelligence-risks-automationbias",
+        "https://safestart.com/news/how-to-overcome-automation-complacency-in-the-workplace/",
+        "https://www.paconsulting.com/insights/what-is-automation-bias-how-to-prevent",
+        "https://www.cnet.com/culture/womans-gps-leads-her-straight-into-a-100-ft-deep-lake/"
+      ],
+      "example": [
+                "\"Max notices a concerning sound coming from his engine. There is no check engine light, so he does not bother to get it looked at. The engine proceeds to get worse.\"",
+                "George works for a media company that needs a transcript of a senate hearing. He finds a video of the hearing on YouTube, and discovers that a transcript was already generated through the subtitling system. He copies the transcript and sends it to his boss, who notices countless errors, as automating subtitling is still an imperfect process."
+      ]
     }
   ]
 }

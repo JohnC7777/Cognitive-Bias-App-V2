@@ -17,10 +17,10 @@ struct BiasData: Codable {
 struct Biase: Codable {
     var id: Int
     var name: String
-    var related, tags: [String]
-    var quote, description, question, overcome: String
+    var related, tags, quote, question: [String]
+    var description, overcome: String
     var resource: [String]
-    var example: String
+    var example: [String]
     var isFaved: Bool? = false
     
     
@@ -31,12 +31,12 @@ struct Biase: Codable {
         self.name = try container.decode(String.self, forKey: .name)
         self.related = try container.decode([String].self, forKey: .related)
         self.tags = try container.decode([String].self, forKey: .tags)
-        self.quote = try container.decode(String.self, forKey: .quote)
+        self.quote = try container.decode([String].self, forKey: .quote)
         self.description = try container.decode(String.self, forKey: .description)
-        self.question = try container.decode(String.self, forKey: .question)
+        self.question = try container.decode([String].self, forKey: .question)
         self.overcome = try container.decode(String.self, forKey: .overcome)
         self.resource = try container.decode([String].self, forKey: .resource)
-        self.example = try container.decode(String.self, forKey: .example)
+        self.example = try container.decode([String].self, forKey: .example)
         self.isFaved = false
     }
 }

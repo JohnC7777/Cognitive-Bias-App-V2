@@ -54,6 +54,7 @@ struct ContentView: View {
                     }
                     .searchable(text: $searchText)
                     .navigationTitle("Biases")
+                    .cornerRadius(15)
                     
                 }else if (selected == 2){ //If the picker is on 'Favorites'
                     List{
@@ -79,11 +80,12 @@ struct ContentView: View {
                     }
                     .searchable(text: $filterSearchText)
                     .navigationTitle("Favorites")
+                    .cornerRadius(15)
                 }
                 
             }
         }
-        .padding()
+        .padding(8)
     }
 }
 
@@ -107,6 +109,8 @@ struct DetailView: View {
                             .background(Color(.systemGray6))
                             .fontWeight(.light)
                             .cornerRadius(8)
+                            .lineLimit(2)
+                            .minimumScaleFactor(0.5)
                     }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -123,14 +127,27 @@ struct DetailView: View {
                 Text("Description")
             }
             
-            if(thisBiase.question != ""){
-                Section {
-                    Text("\(thisBiase.question)")
-                }header:{
-                    Image(systemName: "questionmark.bubble")
-                    Text("Thought Provoking Question")
+            
+            if(!thisBiase.question.isEmpty){
+                if(thisBiase.question[0] != ""){
+                    
+                    Section{
+                        ForEach (0..<thisBiase.question.count) {index in
+                            Text("\(thisBiase.question[index])")
+                        }
+                    }header:{
+                        Image(systemName: "questionmark.bubble")
+                        if(thisBiase.question.count>1){
+                            Text("Thought Provoking Questions")
+                        }else{
+                            Text("Thought Provoking Question")
+                        }
+                    }
+                    
+                    
                 }
             }
+            
             if(thisBiase.overcome != ""){
                 Section{
                     Text("\(thisBiase.overcome)")
@@ -139,17 +156,54 @@ struct DetailView: View {
                     Text("How to Overcome")
                 }
             }
-            if(thisBiase.quote != ""){
+            
+            
+            if(!thisBiase.quote.isEmpty){
+                if(thisBiase.quote[0] != ""){
+                    
+                    Section{
+                        ForEach (0..<thisBiase.quote.count) {index in
+                            Text("\(thisBiase.quote[index])")
+                        }
+                    }header:{
+                        Image(systemName: "quote.opening")
+                        if(thisBiase.quote.count>1){
+                            Text("Related Quotes")
+                        }else{
+                            Text("Related Quote")
+                        }
+                    }
+                    
+                    
+                }
+            }
+            
+            /*if(thisBiase.quote != ""){
                 Section{
                     Text("\(thisBiase.quote)")
                 }header:{
                     Image(systemName: "quote.opening")
                     Text("Related Quote")
                 }
-            }
-            if(thisBiase.example != ""){
-                Section(header: Text("Example")) {
-                    Text("\(thisBiase.example)")
+            }*/
+            
+            
+            if(!thisBiase.example.isEmpty){
+                if(thisBiase.example[0] != ""){
+                    
+                    Section{
+                        ForEach (0..<thisBiase.example.count) {index in
+                            Text("\(thisBiase.example[index])")
+                        }
+                    }header:{
+                        if(thisBiase.example.count>1){
+                            Text("Examples")
+                        }else{
+                            Text("Example")
+                        }
+                    }
+                    
+                    
                 }
             }
             
@@ -176,6 +230,7 @@ struct DetailView: View {
         //.navigationBarTitle("\(thisBiase.name)", displayMode: .inline)
         //.frame(maxWidth: .infinity, alignment: .center)
         .listStyle(.sidebar)
+        .cornerRadius(15)
     }
 }
 
