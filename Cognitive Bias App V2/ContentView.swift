@@ -87,6 +87,7 @@ struct ContentView: View {
     }
 }
 
+
 struct DetailView: View {
     //private var BiasStruct: BiasData = BiasData.allBias
     
@@ -94,6 +95,25 @@ struct DetailView: View {
     @Binding var thisBiase: Biase
     
     var body: some View {
+        
+        if(!thisBiase.tags.isEmpty){
+            if(thisBiase.tags[0] != ""){
+                HStack{
+                    //Text("Tags:")
+                    ForEach (0..<thisBiase.tags.count) {index in
+                        //Text("\(index)")
+                        Text("\(thisBiase.tags[index])")
+                            .padding(5)
+                            .background(Color(.systemGray6))
+                            .fontWeight(.light)
+                            .cornerRadius(8)
+                    }
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+
+            }
+        }
+        
         
         List{
             Section{
@@ -115,7 +135,7 @@ struct DetailView: View {
                 Section{
                     Text("\(thisBiase.overcome)")
                 }header:{
-                    Image(systemName: "figure.mind.and.body")
+                    Image(systemName: "figure.strengthtraining.traditional"/*"figure.mind.and.body"*/)
                     Text("How to Overcome")
                 }
             }
@@ -123,9 +143,7 @@ struct DetailView: View {
                 Section{
                     Text("\(thisBiase.quote)")
                 }header:{
-                    /*"text.justify.leading"*/
                     Image(systemName: "quote.opening")
-                    Image(systemName: "quote.close")
                     Text("Related Quote")
                 }
             }
@@ -155,6 +173,8 @@ struct DetailView: View {
             }
         }
         .navigationTitle("\(thisBiase.name)")
+        //.navigationBarTitle("\(thisBiase.name)", displayMode: .inline)
+        //.frame(maxWidth: .infinity, alignment: .center)
         .listStyle(.sidebar)
     }
 }
