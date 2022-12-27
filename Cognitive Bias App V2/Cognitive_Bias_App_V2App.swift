@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Cognitive_Bias_App_V2App: App {
+    @StateObject var viewModel = ViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
         }
     }
 }

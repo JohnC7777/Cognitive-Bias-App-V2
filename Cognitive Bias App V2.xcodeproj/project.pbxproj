@@ -13,6 +13,7 @@
 		240A478129568A96007E5996 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240A478029568A96007E5996 /* Preview Assets.xcassets */; };
 		240A478829568AA4007E5996 /* sample2.json in Resources */ = {isa = PBXBuildFile; fileRef = 240A478729568AA3007E5996 /* sample2.json */; };
 		240A478A29568AE0007E5996 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240A478929568AE0007E5996 /* JSONManager.swift */; };
+		24AF5260295BA15300901269 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AF525F295BA15300901269 /* DetailView.swift */; };
 		24EC5209295820EF00989F9A /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC5208295820EF00989F9A /* Database.swift */; };
 		24EC520B295821E700989F9A /* Content-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC520A295821E700989F9A /* Content-ViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 		240A478029568A96007E5996 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		240A478729568AA3007E5996 /* sample2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample2.json; sourceTree = "<group>"; };
 		240A478929568AE0007E5996 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+		24AF525F295BA15300901269 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		24EC5208295820EF00989F9A /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		24EC520A295821E700989F9A /* Content-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,13 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				240A477929568A94007E5996 /* Cognitive_Bias_App_V2App.swift */,
-				240A477B29568A94007E5996 /* ContentView.swift */,
 				240A477D29568A96007E5996 /* Assets.xcassets */,
 				240A477F29568A96007E5996 /* Preview Content */,
 				240A478729568AA3007E5996 /* sample2.json */,
+				24AF5261295BB00900901269 /* Views */,
 				240A478929568AE0007E5996 /* JSONManager.swift */,
-				24EC5208295820EF00989F9A /* Database.swift */,
 				24EC520A295821E700989F9A /* Content-ViewModel.swift */,
+				24EC5208295820EF00989F9A /* Database.swift */,
 			);
 			path = "Cognitive Bias App V2";
 			sourceTree = "<group>";
@@ -77,6 +79,15 @@
 				240A478029568A96007E5996 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24AF5261295BB00900901269 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				240A477B29568A94007E5996 /* ContentView.swift */,
+				24AF525F295BA15300901269 /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				240A478A29568AE0007E5996 /* JSONManager.swift in Sources */,
+				24AF5260295BA15300901269 /* DetailView.swift in Sources */,
 				240A477C29568A94007E5996 /* ContentView.swift in Sources */,
 				24EC5209295820EF00989F9A /* Database.swift in Sources */,
 				24EC520B295821E700989F9A /* Content-ViewModel.swift in Sources */,

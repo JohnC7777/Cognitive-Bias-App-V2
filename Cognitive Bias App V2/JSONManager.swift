@@ -14,6 +14,7 @@ struct BiasData: Codable {
     static let allBias: BiasData = Bundle.main.decode(file: "sample2.json")
 }
 
+
 struct Biase: Codable {
     var id: Int
     var name: String
