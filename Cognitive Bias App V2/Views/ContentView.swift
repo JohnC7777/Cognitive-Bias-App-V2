@@ -26,6 +26,7 @@ struct ContentView: View {
                 Picker("Hello", selection: $selected, content: {
                     Text("All Biases").tag(1)
                     Text("Favorites").tag(2)
+                    Text("Recents").tag(3)
                 })
                 .onChange(of: selected) { tag in //When selected is changed, sort the Favs list and reset search text
                     vm.sortFavs()
@@ -77,6 +78,32 @@ struct ContentView: View {
                                 })
                                 
                                 //Circle() //Image placeholder
+                                //    .frame(width: 20,height: 20)
+                                
+                            }
+                        }
+                    }
+                    .searchable(text: $filterSearchText)
+                    .navigationTitle("Favorites")
+                    .cornerRadius(15)
+                }else if (selected == 3){ //If the picker is on 'Recents'
+                    List{
+                        
+                        ForEach(filterSearchText == "" ? vm.filteredItems : vm.filteredItems.filter({
+                            $0.name.lowercased().contains(filterSearchText.lowercased())
+                        }), id: \.id){ entry in
+                            HStack{
+                                NavigationLink(destination: DetailView( thisBiase: $BiasStruct.biases[entry.id-1]), label: {
+                                    Text("\(entry.name)")
+                                    Image(systemName: vm.contains(entry) ? "heart.fill" : "heart")
+                                        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .trailing)
+                                        .onTapGesture {
+                                            vm.toggleFav(item: entry)
+                                        }
+                                })
+                                
+                                //Circle() //Image placeholder
+                                //    .frame(width: 20,height: 20)
                                 
                             }
                         }

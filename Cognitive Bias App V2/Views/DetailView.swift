@@ -44,14 +44,6 @@ struct DetailView: View {
         //The rest of the data is in this list
         List{
             
-            //Display Description
-            Section{
-                Text("\(thisBiase.description)")
-            }header:{
-                Image(systemName: "text.justify.leading")
-                Text("Description")
-            }
-            
             //Display Question(s)
             if(!thisBiase.question.isEmpty){
                     Section{
@@ -66,6 +58,14 @@ struct DetailView: View {
                             Text("Thought Provoking Question")
                         }
                     }
+            }
+            
+            //Display Description
+            Section{
+                Text("\(thisBiase.description)")
+            }header:{
+                Image(systemName: "text.justify.leading")
+                Text("Description")
             }
             
             //Display How to Overcome
