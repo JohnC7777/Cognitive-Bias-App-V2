@@ -19,8 +19,8 @@ struct Biase: Codable {
     var id: Int
     var name: String
     var related, tags, quote, question: [String]
-    var description, overcome: String
-    var resource: [String]
+    var description, overcome : String
+    var resourceName, resource: [String]
     var example: [String]
     var isFaved: Bool? = false
     
@@ -36,6 +36,7 @@ struct Biase: Codable {
         self.description = try container.decode(String.self, forKey: .description)
         self.question = try container.decode([String].self, forKey: .question)
         self.overcome = try container.decode(String.self, forKey: .overcome)
+        self.resourceName = try container.decode([String].self, forKey: .resourceName)
         self.resource = try container.decode([String].self, forKey: .resource)
         self.example = try container.decode([String].self, forKey: .example)
         self.isFaved = false

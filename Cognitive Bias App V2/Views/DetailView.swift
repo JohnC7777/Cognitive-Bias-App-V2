@@ -116,7 +116,7 @@ struct DetailView: View {
                         .frame(maxWidth: .infinity, alignment: .center)
                     
                     ForEach (0..<thisBiase.resource.count) {index in
-                        Link("Click here", destination: URL(string: "\(thisBiase.resource[index])")!)
+                        Link("\(thisBiase.resourceName[index])", destination: URL(string: "\(thisBiase.resource[index])")!)
                             .padding()
                             .background(Color.blue)
                             .cornerRadius(20)
