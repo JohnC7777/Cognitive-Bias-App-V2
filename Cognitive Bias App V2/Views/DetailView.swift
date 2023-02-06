@@ -8,19 +8,21 @@
 import SwiftUI
 
 struct DetailView: View {
-    @Binding var thisBiase: Biase //Binding means that whatever calls this view has to pass in this var which has a type Biase. This is how I get the correct Bias data for this detail view
+    //@Binding var thisBiase: Biase //Binding means that whatever calls this view has to pass in this var which has a type Biase. This is how I get the correct Bias data for this detail view
+    let bias: Biase
     
     @EnvironmentObject var vm : ViewModel //This is a global class (Because of @EnvironmentObject) so we can manipulate this data and it will be updated in the other views as well. The @StateObject is located in the @main struct of the app
     
     var body: some View {
+
         
         //Displays the tags above the list
         HStack{
-            if(!thisBiase.tags.isEmpty){
+            if(!bias.tags.isEmpty){
                 ScrollView(.horizontal){ //scroll horizontally in case there are too many tags to view on screen
                     HStack{
-                        ForEach (0..<thisBiase.tags.count) {index in
-                            Text("\(thisBiase.tags[index])")
+                        ForEach (0..<bias.tags.count) {index in
+                            Text("\(bias.tags[index])")
                                 .padding(5)
                                 .background(Color(.systemGray6))
                                 .fontWeight(.light)
@@ -28,15 +30,19 @@ struct DetailView: View {
                         }
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
+                    .onAppear(){
+                        print("This is what bias is... \(bias.name)")
+
+                    }
                 }
             }
-            Image(systemName: vm.contains(thisBiase) ? "heart.fill" : "heart")
+            Image(systemName: vm.contains(bias) ? "heart.fill" : "heart")
                 .frame(alignment: .trailing)
                 .padding(10)
                 .background(Color(.systemGray4))
                 .cornerRadius(8)
                 .onTapGesture {
-                    vm.toggleFav(item: thisBiase)
+                    vm.toggleFav(item: bias)
                 }
             
         }
@@ -45,14 +51,14 @@ struct DetailView: View {
         List{
             
             //Display Question(s)
-            if(!thisBiase.question.isEmpty){
+            if(!bias.question.isEmpty){
                     Section{
-                        ForEach (0..<thisBiase.question.count) {index in
-                            Text("\(thisBiase.question[index])")
+                        ForEach (0..<bias.question.count) {index in
+                            Text("\(bias.question[index])")
                         }
                     }header:{
                         Image(systemName: "questionmark.bubble")
-                        if(thisBiase.question.count>1){
+                        if(bias.question.count>1){
                             Text("Thought Provoking Questions")
                         }else{
                             Text("Thought Provoking Question")
@@ -62,16 +68,16 @@ struct DetailView: View {
             
             //Display Description
             Section{
-                Text("\(thisBiase.description)")
+                Text("\(bias.description)")
             }header:{
                 Image(systemName: "text.justify.leading")
                 Text("Description")
             }
             
             //Display How to Overcome
-            if(thisBiase.overcome != ""){
+            if(bias.overcome != ""){
                 Section{
-                    Text("\(thisBiase.overcome)")
+                    Text("\(bias.overcome)")
                 }header:{
                     Image(systemName: "figure.strengthtraining.traditional"/*"figure.mind.and.body"*/)
                     Text("How to Overcome")
@@ -79,14 +85,14 @@ struct DetailView: View {
             }
             
             //Display Quote(s)
-            if(!thisBiase.quote.isEmpty){
+            if(!bias.quote.isEmpty){
                     Section{
-                        ForEach (0..<thisBiase.quote.count) {index in
-                            Text("\(thisBiase.quote[index])")
+                        ForEach (0..<bias.quote.count) {index in
+                            Text("\(bias.quote[index])")
                         }
                     }header:{
                         Image(systemName: "quote.opening")
-                        if(thisBiase.quote.count>1){
+                        if(bias.quote.count>1){
                             Text("Related Quotes")
                         }else{
                             Text("Related Quote")
@@ -95,13 +101,13 @@ struct DetailView: View {
             }
             
             //Display Example(s)
-            if(!thisBiase.example.isEmpty){
+            if(!bias.example.isEmpty){
                     Section{
-                        ForEach (0..<thisBiase.example.count) {index in
-                            Text("\(thisBiase.example[index])")
+                        ForEach (0..<bias.example.count) {index in
+                            Text("\(bias.example[index])")
                         }
                     }header:{
-                        if(thisBiase.example.count>1){
+                        if(bias.example.count>1){
                             Text("Examples")
                         }else{
                             Text("Example")
@@ -110,13 +116,13 @@ struct DetailView: View {
             }
             
             //Display Resource(s)
-            if(!thisBiase.resource.isEmpty){
+            if(!bias.resource.isEmpty){
                     
                     Text("External Resources:")
                         .frame(maxWidth: .infinity, alignment: .center)
                     
-                    ForEach (0..<thisBiase.resource.count) {index in
-                        Link("\(thisBiase.resourceName[index])", destination: URL(string: "\(thisBiase.resource[index])")!)
+                    ForEach (0..<bias.resource.count) {index in
+                        Link("\(bias.resourceName[index])", destination: URL(string: "\(bias.resource[index])")!)
                             .padding()
                             .background(Color.blue)
                             .cornerRadius(20)
@@ -124,7 +130,7 @@ struct DetailView: View {
                     }
             }
         }
-        .navigationTitle("\(thisBiase.name)")
+        .navigationTitle("\(bias.name)")
         .listStyle(.sidebar)
         .cornerRadius(15)
     }
@@ -133,7 +139,7 @@ struct DetailView: View {
 struct DetailView_Previews: PreviewProvider {
     @State static var BiasStruct: BiasData = BiasData.allBias
     static var previews: some View {
-        DetailView(thisBiase: $BiasStruct.biases[1])
+        DetailView(bias: BiasStruct.biases[0])
             .environmentObject(ViewModel())
     }
 }

@@ -1,7 +1,7 @@
 {
   "biases": [
     {
-      "id": 1,
+      "id": 0,
       "name": "Abilene paradox",
       "related": [
         "Groupthink"
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 1,
       "name": "Absent-mindedness",
       "related": [
 
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "Action bias",
       "related": [
 
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "Automation bias",
       "related": [
 

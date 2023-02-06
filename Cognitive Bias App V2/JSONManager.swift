@@ -9,13 +9,13 @@ import Foundation
 
 
 
-struct BiasData: Codable {
+struct BiasData: Codable, Hashable {
     var biases: [Biase]
     static let allBias: BiasData = Bundle.main.decode(file: "sample2.json")
 }
 
 
-struct Biase: Codable {
+struct Biase: Codable, Hashable {
     var id: Int
     var name: String
     var related, tags, quote, question: [String]
