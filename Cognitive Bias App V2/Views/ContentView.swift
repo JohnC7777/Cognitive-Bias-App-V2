@@ -64,24 +64,32 @@ struct ContentView: View {
                                         Text("\(entry.name)")
                                             .foregroundColor(.black)
                                             .font(isListStyle ? .headline : .subheadline)
+                                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
                                     }
                                     if isListStyle {
                                         Image(systemName: vm.contains(entry) ? "heart.fill" : "heart")
                                         
-                                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .trailing)
+                                            .frame(maxWidth: 20, maxHeight: .infinity, alignment: .trailing)
                                             .foregroundColor(.black)
                                             .onTapGesture {
                                                 vm.toggleFav(item: entry)
                                             }
+                                        Image(systemName: "chevron.right")
+                                            .foregroundColor(.black)
+                                            .padding(.leading, 5)
                                     }
                                 }
                                 .padding()
-                                .background(Color(uiColor: .systemGray5))
-                                .cornerRadius(15)
+                                .background(
+                                    Color(uiColor: .systemGray5)/*.shadow(.inner(color: .gray, radius: 2))*/
+                                )
                             }
                             
                         }
                         .cornerRadius(15)
+                        .padding(.trailing, 4)
+                        .shadow(color: .gray, radius: 1, x: 4, y: 2)
+
                     }
                 }
                 .navigationTitle("Biases")
