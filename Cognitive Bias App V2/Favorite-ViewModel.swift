@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-@MainActor final class ViewModel: ObservableObject{
+@MainActor final class FavoriteViewModel: ObservableObject{
     @Published var items = [Biase]()
     @Published var showingFavs = false
     @Published var savedItems: Set<Int> = [1, 7]
@@ -31,7 +31,7 @@ import SwiftUI
     
     func sortFavs(){
         withAnimation() {
-            showingFavs.toggle()
+            //showingFavs.toggle()
         }
     }
     

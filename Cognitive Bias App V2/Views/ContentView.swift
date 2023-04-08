@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @EnvironmentObject var vm : ViewModel //This is a global class (Because of @EnvironmentObject) so we can manipulate this data and it will be updated in the other views as well. The @StateObject is located in the @main struct of the app
+    @EnvironmentObject var vm : FavoriteViewModel
+    @EnvironmentObject var rvm : RecentViewModel
     @State private var BiasStruct: BiasData = BiasData.allBias
     @State var searchText = ""
     @State var filterSearchText = ""
@@ -30,6 +31,17 @@ struct ContentView: View {
                         Text("Recents").tag(3)
                     })
                     .onChange(of: selected) { tag in //When selected is changed, sort the Favs list and reset search text
+                        if selected == 1 {
+                            withAnimation() {
+                                vm.showingFavs = false
+                            }
+                        } else if selected == 2 {
+                            withAnimation() {
+                                vm.showingFavs = true
+                            }
+                        }else if selected == 3 {
+                            rvm.showingFavs = true
+                        }
                         vm.sortFavs()
                         searchText = ""
                         filterSearchText = ""
@@ -49,9 +61,11 @@ struct ContentView: View {
                     LazyVGrid(columns: isListStyle ? [GridItem(.adaptive(minimum: .infinity))] : adaptiveColumn, spacing: 10){
                         ForEach((selected == 1) ? (searchText == "" ? BiasStruct.biases : BiasStruct.biases.filter({
                             $0.name.lowercased().contains(searchText.lowercased())
-                        })) : (filterSearchText == "" ? vm.filteredItems : vm.filteredItems.filter({
+                        })) : ((selected==2) ? (filterSearchText == "" ? vm.filteredItems : vm.filteredItems.filter({
                             $0.name.lowercased().contains(filterSearchText.lowercased())
-                        })), id: \.self){ entry in
+                        })) : (filterSearchText == "" ? rvm.filteredItems : rvm.filteredItems.filter({
+                            $0.name.lowercased().contains(filterSearchText.lowercased())
+                        }))), id: \.self){ entry in
                             NavigationLink(value: entry){
                                 HStack{
                                     VStack{
@@ -111,7 +125,6 @@ struct ContentView: View {
                 .navigationDestination(for: Biase.self){ bias in
                     DetailView(bias: bias)
                 }
-                
             }
             .padding(8)
         }
@@ -135,7 +148,7 @@ extension Binding {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(ViewModel())
+            .environmentObject(FavoriteViewModel())
     }
 }
 

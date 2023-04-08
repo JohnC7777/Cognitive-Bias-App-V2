@@ -2,132 +2,1188 @@
   "biases": [
     {
       "id": 0,
-      "name": "Abilene paradox",
+      "name": "Authority bias",
       "related": [
-        "Groupthink"
+        "Automation bias",
+        "Hippo problem"
       ],
       "tags": [
-        "group",
-        "communication",
-        "leadership"
+        "authority",
+        "leadership",
+        "power",
+        "trust"
       ],
       "quote": [
-        "\"A good manager doesn't try to eliminate conflict; he tries to keep it from wasting the energies of his people. If you're the boss and your people fight you openly when they think that you are wrong--that's healthy.\" - Robert Townsend"
+        "\"I think we should just trust our president in every decision that he makes and we should just support that. - Britney Spears\""
       ],
-      "description": "A group's decisions often contradict the opinions of individual members.",
+      "description": "Authority bias refers to when we unquestioningly trust an individual because of their power or status. We may perceive this individual to be an expert on a topic due to their academic credentials, or assume that their wealth or social standing legitimizes their opinion. Either way, we may not take the time to determine whether the information being presented to us is correct, which makes us vulnerable to being taken advantage of.\nBlind trust in authority can manifest in harmless ways, such as buying a product that's been endorsed by a celebrity, but there are many egregious examples of this bias at work, including soldiers following orders to commit war crimes and the indoctrination of individuals in cults. \nIn most instances experts can be trusted, and relying on reputable sources of knowledge is critical to societal function. However, we always need to consider what others have to gain from us following their advice, and make informed choices when it comes to our own wellbeing.",
       "question": [
-          "Have you ever disagreed with a group decision but went along with it, only to find out everyone else disagreed later?"
+        "Do you trust your boss's opinion more than your other coworkers' opinion?"
       ],
-      "overcome": "The Abilene paradox occurs due to an individual's fears of rejection, being wrong, or conflict. In order to overcome the paradox, it is necessary for group members to encourage honest, open communication without judgment. A helpful truth to remember is that dissent and conflict are not inherently damaging, and that they can often aid in a group reaching an optimal solution for all of its members.",
+      "overcome": "If advice given to you by an authority figure seems unusual or makes you feel uncomfortable, ask yourself whether the information being presented by the authority figure is logical, and imagine how you'd receive the information had it been presented by someone with either no authority or a different form of authority. For instance, imagine if the advice being given to you by a manager was given to you by your parent. Question the authority figure, get second opinions from other knowledgable sources, and ask yourself whether the source of the authority figure's power gives them the information necessary to provide advice on the topic at hand.",
       "resourceName": [
-        "What is an Abilene Paradox?",
-        "The Abilene Paradox explained"
+        "Productive Club"
       ],
       "resource": [
-        "https://www.hrzone.com/hr-glossary/what-is-the-abilene-paradox",
-        "https://www.theknowledge.io/abilene-paradox/"
+        "https://productiveclub.com/authority-bias/"
       ],
       "example": [
-          "Ada and her friends are deciding where to have dinner. Ada wants to get sushi, but doesn't want to start an argument and compromises with the group on going to a diner. Later, at the diner, Ada mentions she wanted to get sushi, and discovers that all of her friends would've rather gone elsewhere than to the diner."
+        "Sophie recently got a job at a fast food restaurant. However, she noticed that the hours she worked weren't matching the pay she received. When she brought this discrepancy to her boss's attention, he explained that he made some small deductions for whenever Sophie took a ten-minute break. While such deductions are illegal, Sophie didn't question her boss's judgment, and opted instead to take shorter breaks."
       ]
     },
     {
       "id": 1,
-      "name": "Absent-mindedness",
-      "related": [
-
-      ],
-      "tags": [
-
-      ],
-      "quote": [
-
-      ],
-      "description": "",
-      "question": [
-      ],
-      "overcome": "",
-      "resourceName": [
-          
-      ],
-      "resource": [
-
-      ],
-      "example": [
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Action bias",
-      "related": [
-
-      ],
-      "tags": [
-        "action ",
-        "inaction"
-      ],
-      "quote": [
-        "\"Life was always a matter of waiting for the right moment to act.\" - Paulo Coelho"
-      ],
-      "description": "We prefer doing something to doing nothing.",
-      "question": [
-          "Have you ever been told that a minute spent doing nothing is a minute wasted?"
-      ],
-      "overcome": "Recognize that inaction is not avoidance, and that not all situations have a clear solution at the moment. Often, practicing restraint in a situation may be more effective than acting in the moment, as doing so may give you time for introspection and consulting trusted friends for advice.",
-      "resourceName": [
-          
-      ],
-      "resource": [
-
-      ],
-      "example": [
-          "\"You should do it! You only live once!\""
-      ]
-    },
-    {
-      "id": 3,
       "name": "Automation bias",
       "related": [
-
+        "Authority bias"
       ],
       "tags": [
-        "Memory",
+        "memory",
         "learning",
         "belief",
-        "robots trust",
+        "robots",
         "artificial intelligence",
+        "trust",
         "reliance",
         "machines"
       ],
       "quote": [
-        "\"Automation does not need to be our enemy, I think machines can make life easier for men, if men do not let the machines dominate them.\" - JFK",
-        "“One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man.” - Elbert Hubbard",
-        "“Automation applied to an inefficient operation will magnify the inefficiency.” - Bill Gates",
-        "“I hope the guy who invented autocorrect burns in hello” - Unknown",
-        "“I know a lot about artificial intelligence, but not as much as it knows about me.” - Dave Waters"
+        "\"Automation does not need to be our enemy, I think machines can make life easier for men, if men do not let the machines dominate them.\" - JFK"
       ],
-      "description": "Automation bias occurs when we rely on automated systems, trusting too much in their decisions rather than our own. By assuming that a machine is always right, we second guess ourselves, and are less likely to correct the mistakes we notice that are made by the machine. \n\nThe negative effects of this bias can range from trusting an incorrect spell check replacement to overlooking errors in large systems that rely on automated warnings, such as regional weather alerts and autopilot for cars and planes.\n\nWhile automation has been extremely helpful in many realms of our life, including transportation, health, and communication, we need to make sure that we don’t become complacent, and that we can still survive if these systems are flawed or fail us.",
+      "description": "Automation bias occurs when we rely on automated systems, trusting too much in their decisions rather than our own. By assuming that a machine is always right, we second guess ourselves, and are less likely to correct the mistakes we notice that are made by the machine. \n\nThe negative effects of this bias can range from trusting an incorrect spell check replacement to overlooking errors in large systems that rely on automated warnings, such as regional weather alerts and autopilot for cars and planes.\n\nWhile automation has been extremely helpful in many realms of our life, including transportation, health, and communication, we need to make sure that we don’t become complacent, and that we can still survive if these systems are flawed or fail us.\n",
       "question": [
-          "Do you remember a time that Google maps took you the wrong way?",
-          "How many of your friends’ telephone numbers do you remember?",
-          "Has anyone ever told you that your last name was spelled incorrectly? If so, were they a human or a machine?"
+        "How many of your friends’ telephone numbers do you remember?"
       ],
-      "overcome": "Automation bias may be overcome by preventing situations where machine reliance is tempting. Simply giving yourself enough time to proofread your emails or checking for traffic updates outside of your directions app can prevent overreliance on imperfect systems. Treat automation as \"assistance\", rather than directive. \n\n\n\nThis bias may be overcome by treating automation as assistance in situations where machine reliance is tempting. Simply giving yourself enough time to proofread your emails or checking for traffic updates outside of your directions app can prevent overreliance on imperfect systems. \n\nFor companies that build automated systems, safety training programs need to be implemented. By knowing how to correctly monitor and maintain the system, workers can feel empowered to recognize when errors appear.",
+      "overcome": "This bias may be overcome by treating automation as assistance in situations where machine reliance is tempting. Simply giving yourself enough time to proofread your emails or checking for traffic updates outside of your directions app can prevent overreliance on imperfect systems. \n\nFor companies that build automated systems, safety training programs need to be implemented. By knowing how to correctly monitor and maintain the system, workers can feel empowered to recognize when errors appear. ",
       "resourceName": [
-        "Artificial Intelligence Risks: Automation Bias",
-        "How to Overcome Automation Complacency in the Workplace",
-        "What is automation bias and how can you prevent it",
-        "Woman following GPS ends up in a 100-foot-deep lake"
+        "Medpro",
+        "Safestart",
+        "PaConsulting",
+        "Cnet"
       ],
       "resource": [
         "https://www.medpro.com/artificial-intelligence-risks-automationbias",
         "https://safestart.com/news/how-to-overcome-automation-complacency-in-the-workplace/",
         "https://www.paconsulting.com/insights/what-is-automation-bias-how-to-prevent",
-        "https://www.cnet.com/culture/womans-gps-leads-her-straight-into-a-100-ft-deep-lake/"
+        "https://www.cnet.com/culture/womans-gps-leads-her-straight-into-a-100-ft-deep-lake/#:~:text=As%20the%20Toronto%20Sun%20reports,500%20feet%20at%20its%20extremes"
       ],
       "example": [
-                "\"Max notices a concerning sound coming from his engine. There is no check engine light, so he does not bother to get it looked at. The engine proceeds to get worse.\"",
-                "George works for a media company that needs a transcript of a senate hearing. He finds a video of the hearing on YouTube, and discovers that a transcript was already generated through the subtitling system. He copies the transcript and sends it to his boss, who notices countless errors, as automating subtitling is still an imperfect process."
+        "Max notices a concerning sound coming from his engine. There is no check engine light, so he does not bother to get it looked at. The engine proceeds to get worse.",
+        "George works for a media company that needs a transcript of a senate hearing. He finds a video of the hearing on YouTube, and discovers that a transcript was already generated through the subtitling system. He copies the transcript and sends it to his boss, who notices countless errors, as automating subtitling is still an imperfect process"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Baader-Meinhof Phenomenon",
+      "related": [
+        "Clustering illusion",
+        "Base rate fallacy",
+        "Recency illusion"
+      ],
+      "tags": [
+        "memory",
+        "patterns",
+        "clustering"
+      ],
+      "quote": [
+        "\"Ever since I learned about the Baader–Meinhof phenomenon, I've started seeing it everywhere.\" - Michael Stevens"
+      ],
+      "description": "The Baader-Meinhof Phenomenon, or Frequency Bias, appears when we experience something for the first time and become acutely more aware of it. For instance, after a friend tells us about a television show, we start seeing ads for it on YouTube, or notice articles about it being shared on social media. While the ads and articles would've existed anyway, our brain pays more attention to them due to the new information presented to us.\n\nAlthough many examples of this bias are harmless, the frequency illusion can lead to disproportionate attention to insignificant information. For instance, a firm may invest in a cryptocurrency because members of its board have seen advertisements about the currency and believe it to be a good investment. However, the firm may ignore safer or more lucrative investments that aren't as trendy or well advertised. Furthermore, this bias can undermine scientific testing as practitioners and participants are drawn to observe and create false patterns in data. This bias can be especially damaging in regards to criminal justice, as investigators, witnesses, and jurors alike can become too focused on insignificant pieces of evidence that seem to reappear.\n\nTherefore, we must recognize that when we experience something for the first time, it will hold a strong presence in our mind, and we must be able to both consider when this presence may be misleading us and how we can take advantage of its presence.",
+      "question": [
+        "Have you ever bought a new car then suddenly noticed that a lot of other people have the same model?"
+      ],
+      "overcome": "To prevent the Baader-Meinhof phenomenon from affecting our decision making, it is necessary to recognize that when we learn about something for the first time, it will hold a strong presence in our minds regardless of whether it holds more significance in reality. Therefore, it is necessary to question whether the frequency of something is coincidental or is actually a pattern that can be shown objectively in data. Resist accepting that something is a pattern until you have found strong evidence that it is. During the learning process, it can also be helpful to put equal weight on other new information being presented in order to prevent one idea from taking your complete attention.\n\nHowever, when we're learning something new and would like to gain knowledge about or make connections that are beneficial to that process, the Baader-Meinhof phenomenon can help us notice information in our environment that we were incapable of recognizing before. For instance, if you are learning to play an instrument, when you listen to music, you may subconsciously recognize chord patterns and notes that you wouldn't have before, which in turn can help you better play piano. Therefore, there are ways in which we can take advantage of the overrepresented presence of something in our mind to improve our understanding of it.",
+      "resourceName": [
+        "Healthline",
+        "Dictionary.com",
+        "Onboard Meetings",
+        "FCPA Blog",
+        "MacQuarie University"
+      ],
+      "resource": [
+        "https://www.healthline.com/health/baader-meinhof-phenomenon#what-it-is",
+        "https://www.dictionary.com/e/tech-science/baader-meinhof-phenomenon/",
+        "https://www.onboardmeetings.com/blog/baader-meinhof-phenomenon/",
+        "https://fcpablog.com/2021/02/18/the-baader-meinhof-phenomenon-is-a-secret-weapon-for-compliance-training/",
+        "https://lighthouse.mq.edu.au/article/july-2020/What-is-the-Baader-Meinhof-Phenomenon"
+      ],
+      "example": [
+        "\"On a whim, Pat watches an obscure film from the 1950s that pops up in their recommended list on Netflix. The following week, the movie seems to be everywhere, as Pat notices actors from it in other films recommended to them. A few of their friends even brings up the film at brunch. While Pat is surprised that they had never noticed all of the references to the movie before, in reality there was no reason for them to, as the film currently has a strong presence in their mind that it couldn't have had before.\""
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Forer effect",
+      "related": [
+        "subjective bias",
+        "validation effect"
+      ],
+      "tags": [
+        "belief",
+        "patterns",
+        "delusion",
+        "trust"
+      ],
+      "quote": [
+        "\"I believe in a lot of astrology. I believe in aliens... I look up to the stars and I imagine: 'How self-important are we to think that we are the only life-form?'\" \n- Katy Perry"
+      ],
+      "description": "The Barnum effect, or Forer effect, is our tendency to attach personal meaning to general information. Under this effect, we assume broad descriptions like horoscopes or personality tests are specific to ourselves without recognizing how such information can be applicable to others. For instance, if we are told that the characteristics of our Zodiac sign are \"smart\", \"talented\", or \"funny\", we may assume that these descriptors embody us more than other people, when this is not the case.\n\nThe negative consequences of this bias appear when corporations take advantage of the effect, and trick customers into thinking that products being marketed to them are personalized to their specific needs. If we can see ourselves represented in advertisements, or are told that the items on a \"For You\" page have been carefully selected based on our other purchases, we will be more likely to buy a product that we think is meant for us, when in reality companies attempting to sell their products to as wide of an audience as possible.\n\nTo combat the Barnum effect, we must identify when individuals and entities are trying to personalize general information to us for their own gain. In the process, we can embrace our commonalities, and perhaps identify information that is truly unique to ourselves.\n",
+      "question": [
+        "Have you ever tried to self-diagnose yourself after Googling your symptoms and reading a vague description?"
+      ],
+      "overcome": "Overcoming the Barnum effect requires recognizing that we as humans share a lot in common. While personality tests or product recommendations may make accurate statements about us, we must ask whether these statements can be applied to other people we know. If these assertions are vague, flattering, and primarily qualitative, there's a good chance that they are not describing characteristics unique to ourselves.",
+      "resourceName": [
+        "The Decision Lab",
+        "Formpl.us",
+        "Traitlab",
+        "Science Direct"
+      ],
+      "resource": [
+        "https://thedecisionlab.com/biases/barnum-effect",
+        "https://www.formpl.us/blog/barnum-effect#:~:text=Some%20examples%20of%20the%20Barnum,accuracy%20when%20the%20person%20agrees.",
+        "https://www.traitlab.com/blog/barnum-effect",
+        "https://is.muni.cz/el/phil/podzim2017/PSB_307/um/mason_barnumsky_efekt_2011.pdf"
+      ],
+      "example": [
+        "Alex checks their horoscope and is shocked at how much it relates to the day they are currently having. Then, Alex double checks the date, and realizes the horoscope was actually written for yesterday.  "
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Belief bias",
+      "related": [
+        "\"Argument from fallacy\""
+      ],
+      "tags": [
+        "conspiracy",
+        "belief",
+        "conclusion",
+        "argument",
+        "evidence"
+      ],
+      "quote": [
+        "“A thing is not necessarily true because a man dies for it.”\n- Oscar Wilde"
+      ],
+      "description": "The belief bias occurs when we judge an argument’s strength not by how strongly it supports the conclusion, but how plausible we believe the conclusion to be. For instance, if we believe that a friend doesn't want to spend time with us, but we don't have any sound reasoning for this belief, we may hold a grudge against them or look for trivial clues that they dislike us instead of objective evidence of their opinion.\n\nCommon manifestations of this bias are conspiracy theories, which are often conclusions that people would like to believe, but are based on faulty reasoning. While a claim that extraterrestrial life has made contact with humans is exciting, it's easy to overlook a lack of concrete evidence because such a scenario is so enticing. However, the implications of conspiracy theories can be more harmful when audiences want to believe false claims about science or politics.\n\nTherefore, it is critical that when we're formulating our beliefs, we ensure that we have a sound reasoning for why we're adopting them, and don't accept conclusions as truth without evidence.",
+      "question": [
+        "Have you ever chosen to believe in something because you wanted to even though you had no reason to?"
+      ],
+      "overcome": "To overcome the belief bias, it is necessary to consider an argument without previous emotion and beliefs and truly listen to the reasoning at hand. By doing so, we can focus on how an argument is constructed, and ensure that our own beliefs and assumptions are not filling in the gaps in reasoning. Furthermore, we should consider whether the statements in an argument are both truthful and logical. While we may be given a truthful statistic or piece of information, it may not be logically connected to the conclusion.",
+      "resourceName": [
+        "MasterClass",
+        "APA Dictionary"
+      ],
+      "resource": [
+        "https://www.masterclass.com/articles/belief-bias",
+        "https://dictionary.apa.org/belief-bias"
+      ],
+      "example": [
+        "Kai is a biologist who is concerned about the side effects of vaccines, and sometimes speaks out against his peers. While reading a paper discussing the harmfulness of vaccines, he notices that some of the reasoning cited does not make medical sense. Despite these flaws, he feels validated by the paper's conclusion, and sends it to his peers."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Bizarreness effect",
+      "related": [
+        "Salience bias"
+      ],
+      "tags": [
+        "bizarre",
+        "weird",
+        "information",
+        "memory"
+      ],
+      "quote": [
+        "“All things are strange which are worth knowing.”\n- Catherynne M. Valente"
+      ],
+      "description": "The bizarreness effect is a bias in which we are better able to recall bizarre information or imagery versus average information or imagery. For instance, if we are given a news article that contains mostly common or unsurprising information, but that also includes one strange detail, we will better recall that detail versus all of the other information provided to us.\n\nWhile the prevalence of this effect has been debated, some studies have shown that participants were better able to recall bizarre information or photos when included among otherwise convential data. Therefore, corporations may be inclined to craft bizarre advertisements to better draw our attention.\n\nBy confronting the bizarreness effect, we are able to evaluate a bizarre piece of information on the same level as common information being presented to us, and ensure that we don't become distracted and miss equally important statements or images.",
+      "question": [
+        "Are you more likely to remember a product with a weird advertisement or an informative one?"
+      ],
+      "overcome": "Prior to encountering a bizarre piece of information, we should try to give it as much attention as we have to other pieces of information. For instance, if a commercial for a medication includes a strange, memorable mascot, we should try to acknowledge the mascot while also paying attention to more common and important information such as side effects and insurance coverage. While some bizarre information requires more attention, staying vigilant for when the bias is being exploited.",
+      "resourceName": [
+        "Memory &amp; Cognition",
+        "Purdue University",
+        "Chatsworth Consulting"
+      ],
+      "resource": [
+        "https://link.springer.com/article/10.3758/s13421-013-0335-4",
+        "https://pubmed.ncbi.nlm.nih.gov/7738508/",
+        "https://chatsworthconsulting.com/2019/09/05/our-brains-are-built-for-bias-and-how-to-overcome-it-2/"
+      ],
+      "example": [
+        "Felicia used to watch cartoons as a kid, some of which had relatively weird imagery. While looking on Twitter, she sees an image from one of the cartoons she watched as a child. Although she's not able to recall the plot of the episode or even the name of the show, she can recalls the image in detail and her feeling of seeing it for the first time."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Bottom-dollar effect",
+      "related": [
+        "Mental accounting"
+      ],
+      "tags": [
+        "money",
+        "spending",
+        "accounting",
+        "subjective"
+      ],
+      "quote": [
+        "\"When I get a little money I buy books; and if any is left I buy food and clothes.\" - Desiderius Erasmus"
+      ],
+      "description": "The bottom-dollar effect is a form of mental accounting in which we feel dissatisfied with products and services that exhaust our remaining budget. Conversely, we may feel more satisfied with products and services that do not exhaust our remaining budget. While the price and quality of the products are the same no matter how much money we have, the pain of using up our funds overshadows our satisfaction for the product we buy.\n\nWhen we are unaware of the impact of subjective spending, this bias can have a massive impact, distorting how we view our purchases. We may view a necessary purchase that taxes our funds as being a poor choice, or be inclined to spend unnecessarily after a paycheck. In a larger scope, corporations can sometimes plan the release of a product or alter prices based on when most poeple get paid.\n\nWhen we recognize this bias, we can begin to view our spending habits more effectively, and ask ourselves what circumstances elicit certain emotional responses for purchases. By doing so, we make better choices, and can reduce the pain of spending while budgeting more wisely.",
+      "question": [
+        "Would you rather buy an overpriced dinner and have money left in your budget, or buy a reasonably-priced dinner that leaves you with no money left over?"
+      ],
+      "overcome": "Overcoming the bottom-dollar effect involves planning purchases wisely. Painful spending, such as on bills or necessities, should be prioritized for when we have the most money, since we will feel more satisfied knowing that these purchases won't drain our entire budget. After making these purchases, we can then spend on products that are for our enjoyment, as we will be less likely to feel dissatisfied indulging ourselves. If possible, waiting until the next paycheck to make a large purchase may also make us feel better knowing that we will have leftover resources.",
+      "resourceName": [
+        "The Decision Lab",
+        "Journal of Consumer Research"
+      ],
+      "resource": [
+        "https://thedecisionlab.com/biases/bottom-dollar-effect",
+        "https://academic.oup.com/jcr/article-abstract/41/3/656/2907532"
+      ],
+      "example": [
+        "Kenan has budgeted $50 for grocery shopping. He goes to a Costco to spend the first $30 on cheaper items in bulk, and feels satisfied with his purchases despite their low quality. However, when he goes to a local grocery store to get produce, he feels less satisfied after having to spend the remainder of his budget, and is hyper aware of any flaws in the fruits and vegetables."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Bounded rationality",
+      "related": [],
+      "tags": [
+        "decision-making",
+        "satisfaction",
+        "improvement"
+      ],
+      "quote": [
+        "\"Done is better than perfect.\" -Sheryl Sandberg"
+      ],
+      "description": "Bounded rationality occurs when we are satisfied making sufficent though suboptimal decisions. Because we believe these decisions to be \"good enough\", we are unmotivated to make a better choice. This bias often appears in an economic context, where we purchase decent products based on limited knowledge.\n\nA common example of bounded rationality can be seen in food labeling. By not looking into nutrition information and food regulations, we are susceptible to misleading statements that make us feel like we're being rational when a better option is available. For instance, if a soup is given a \"heart healthy\" label, but we are unaware of the lenient criteria for the label, we may still make a high-sodium purchase.\n\nWhile we will never be logically omniscient, making perfect decisions and knowing all possibilities or consequences, we can become complacent by never choosing to improve our choices. Therefore, although bounded rationality cannot be fully overcome, it can certainly be mitigated.",
+      "question": [
+        "Do you believe your toothpaste is the best on the market in terms of cost and quality?"
+      ],
+      "overcome": "Because we are not all-knowing, bounded rationality cannot be fully overcome, but its consequences can improved. Since we are often pressured to make decisions, ensuring that there's enough time to research and make a more informed choice can help us achieve a better outcome.\r\n\r\nWhen we are not knowledgable on a given topic, our rationality is extremely limited. Working in a diverse team or reaching out to a expert when making decisions can help us expand our knowledge and ensure that we are leveraging all of our possible resources.",
+      "resourceName": [
+        "The Decision Lab",
+        "Stanford.edu",
+        "Foodnavigator"
+      ],
+      "resource": [
+        "https://thedecisionlab.com/biases/bounded-rationality",
+        "https://plato.stanford.edu/entries/bounded-rationality/",
+        "https://www.foodnavigator-usa.com/Article/2013/08/16/The-AHA-defrauds-consumers-by-permitting-Heart-check-logo-on-foods-high-in-sodium-claims-lawsuit-vs-Campbell-Soup-AHA#"
+      ],
+      "example": [
+        "Leon is buying his first car, and doesn't know much about the market. However, he knows that he'd like to have a backup camera. While shopping for cars, a salesperson shows him a car with a backup camera and decent gas mileage. Because he needs a car, and the deal at hand seems good based on his limited research, Leon purchases the car. A few days later, he discovers that another lot sells a similar model with better gas mileage at a slightly lower price, but Leon does not regret his purchase because his car meets his needs."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bucket error",
+      "related": [],
+      "tags": [
+        "semantics",
+        "simplification",
+        "fallacy"
+      ],
+      "quote": [
+        "“A map is not the territory it represents, but if correct, it has a similar structure to the territory, which accounts for its usefulness.” - Alfred Korzybski"
+      ],
+      "description": "A bucket error, also known as a fallacy of compression, occurs when we incorrectly combine multiple entities or concepts under the same label and use them interchangeably. By not recognizing two entities or concepts to be different, we may make logical mistakes due to false equivalencies.\n\nWhile many instances of this bias can be harmless, such as in the case of distinguishing animals like crocodiles versus alligators or possums versus opossums, the implications of this bias can extend beyond frivolous grammatical and identification errors. We may assume that entire cultures or groups of people are the same if we never make the effort to differentiate them from one another.\n\nBy combating the bucket error in its more egregious forms, we can observe the nuances that help us digest difficult concepts, and ensure that we are not incorrectly simplifying our world.",
+      "question": [
+        "Have you ever used the terms \"cement\" and \"concrete\" interchangeably?"
+      ],
+      "overcome": "To overcome the bucket error, we must ensure that we understand the implications of our compressions. When we state that a concept or entity is equivalent, we must ensure that they are in fact equivalent, or explain why the equivalency in being made within the given context. Sometimes, making an equivalence can be reasonable, but disclaiming the equivalence can help ensure that others understand that a difference exists between the concepts or entities.",
+      "resourceName": [
+        "LessWrong",
+        "Read the Sequences",
+        "Effectiviology"
+      ],
+      "resource": [
+        "https://www.lesswrong.com/tag/bucket-errors",
+        "https://www.readthesequences.com/Fallacies-Of-Compression",
+        "https://effectiviology.com/false-equivalence/"
+      ],
+      "example": [
+        "Syd is applying to college, and on an application is asked for their ethnicity and nationality. Because they had only heard these concepts being used interchangeably in the past, Syd writes \"European\" for both, despite their nationality being American. "
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Bundling bias",
+      "related": [
+        "Sunk cost fallacy"
+      ],
+      "tags": [
+        "money",
+        "spending",
+        "resources",
+        "waste"
+      ],
+      "quote": [
+        "\"I shoot an arrow into the air, where it lands I do not care: I get my arrows wholesale!\" - Curly Howard"
+      ],
+      "description": "Bundling bias is our tendency to value items purchased in a bundle less than those purchased individually. For instance, if we pay for a package of streaming services, we are less likely to watch all of the services than if we paid for each one individually. \n\nTaking advantage of the bundling technique is a phenomenal way for businesses to profit without having to expend resources for goods and services. By selling seasonal passes to theme parks or theaters, these entities can accept payments for events knowing there's a high chance some of these services won't need to be provided. Ultimately, customers will spend more despite having the impression that they're saving money.\n\nBy fighting the bundling bias, we can ensure that we understand the value of each of the individual items we've purchased, and not play into companies' predatory marketing schemes.",
+      "question": [
+        "Have you ever purchased a gym subscription and only visited once? "
+      ],
+      "overcome": "The bundling bias can be overcome by viewing items purchased in a bundle individually and determining what consequences exist for purchasing a large number of them. For instance, if a food item is perishable, and you only use a small quantity each week, it may be more cost effective to buy a few individual items versus buying a bundle of them. Rather than view a bundled purchase as one single price, viewing a bundle as a series of individual purchases can help us remember the value of each one. Furthermore, ask yourself whether you are buying a service in a bundle because you're actually going to use it, or because you perceive it to be a good deal. By doing so, you can avoid purchasing something that you wouldn't have bought individually.",
+      "resourceName": [
+        "The Decision Lab",
+        "Coglode"
+      ],
+      "resource": [
+        "https://thedecisionlab.com/biases/bundling-bias",
+        "https://www.coglode.com/research/the-risk-of-bundling"
+      ],
+      "example": [
+        "Vera's yoga studio offers a promotion where she can buy five classes together for a slightly reduced price for each class. However, she has to use up all of these classes in a given time frame that's reasonable for how often she attends class. After buying the bundle, she uses up three of the classes, but eventually becomes too busy to schedule the remaining two before the credits expire. Ultimately, she would've had better results paying for each class individually."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Bye-now effect",
+      "related": [],
+      "tags": [
+        "memory",
+        "homophones"
+      ],
+      "quote": [
+        "“Buy Local or Bye Bye Local.” - Unknown"
+      ],
+      "description": "The bye-now effect is a phenomenon in which we are likely to spend more after reading the word “bye”. This effect occurs due to homophone priming, a psychological process in which the use of a word not only makes our brain think about the word's meaning but also the meanings of its homophones.\r\n\r\nIn harmless cases, homophone priming can manifest as insignificant grammatical errors or even puns. On a greater scale, the homophone priming can be used in marketing schemes to exploit dual meanings of words and encourage us to spend more money.\r\n\r\nWhile the bye-now effect demonstrates our brain's impressive ability to make connections through language, we must be cognizant of how those connections can impact our behavior and leave us vulnerable to manipulation.",
+      "question": [
+        "Have you ever not realized that someone used the wrong \"their\" in a text message, especially when you were tired?"
+      ],
+      "overcome": "Although the subconscious machinations that underlie the bye-now effect can be helpful when making intellectual connections, ensuring that we can identify when homophones are in use can help us prevent subliminally equating their meanings. It has been shown that individuals who have a lower skill level at reading are more susceptible to the effect, and therefore practicing reading attentively can help us ensure that we can distinguish homophones that have vastly different meanings.\r\n\r\nFor marketers, evaluating names and slogans to check whether they are homophonous with unattractive words and phrases can help prevent consumer aversion. For instance, companies such as \"Passmore Gas &amp; Propane\" or the website \"Americanscrapmetal.com\" can result in unfavorable connotations that turn away consumers.",
+      "resourceName": [
+        "The Decision Lab",
+        "Coglode",
+        "PLOS ONE",
+        "Huffington Post"
+      ],
+      "resource": [
+        "https://thedecisionlab.com/biases/bye-now-effect",
+        "https://www.coglode.com/research/bye-now-effect",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130853",
+        "https://www.huffpost.com/entry/the-25-most-ridiculous-business-names-ever_b_5924663ae4b0b28a33f62fd9"
+      ],
+      "example": [
+        "After a long day of work, Charlie goes to pick up his medication from his pharmacy. There are many other people in line, next to a sign that says \"Wait here\". Charlie reads the sign, and feels like his body is heavier and more exhausted. In his mind, when Charlie read the word \"wait\", his brain also recalled the meaning of the word \"weight\" due to the two words being homophones."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Bystander effect",
+      "related": [],
+      "tags": [
+        "inaction",
+        "intervention",
+        "trauma",
+        "bullying",
+        "abuse"
+      ],
+      "quote": [
+        "\"There are no innocent bystanders.\" - William S. Burroughs",
+        "\"What hurts the victim most is not the cruelty of the oppressor, but the silence of the bystander.\" - Elie Wiesel"
+      ],
+      "description": "The bystander effect is a phenomenon in which we are unlikely to help a victim if we are part of a crowd of people. As the size of the crowd grows, it becomes less likely that any individual member will offer a victim assistance. Conversely, if there are fewer bystanders, we are more likely to intervene.\n\nThis bias can occur in low-stakes situations where we believe we don't have a responsibility to act because of the presence of others. For instance, if we see that a cereal box is on the wrong shelf at the grocery store, we won't move it back because we believe that's the job of an employee or the individual who misplaced it. However, the greater consequences of this bias can be disturbing, as there are countless examples of dangerous scenarios where no member of large groups of people aided victims of crime or other abuse. \n\nWhile we as bystanders are not responsible for the actions of perpetrators of abuse, by not taking action, we become complicit in the abuse. By being prepared to intervene, individuals can overcome their own fears, improve their confidence, and prevent further harm to victims.",
+      "question": [
+        "When you see a piece of trash on the highway, do you assume someone else will pick it up?"
+      ],
+      "overcome": "When working to overcome the bystander effect, some considerations should be made for how safe intervention is in a given scenario. If intervening seriously threatens your own safety or wellbeing, it is reasonable to protect yourself. If you are present during a shooting, you are not responsible for stopping the shooter. Your priority should be to escape the situation and get help from someone trained to respond to crises.\n\nHowever, in a situation where intervening does not threaten your safety or wellbeing, there are steps you can take to help others. The first step is to not assume that someone else will act, as other bystanders will likely be making the same assumption. Recruiting others to help can counteract the effect, as other bystanders will be more likely to intervene once one person does. If possible, separate the victim from the perpetrator, or distract the perpetrator while others focus on helping the victim. If you feel that you are not equipped to help, reaching out to a supervisor or professional who has training to handle the situation may be the best way of intervening.",
+      "resourceName": [
+        "Psychology Today",
+        "Listverse",
+        "Loyola Marymount University"
+      ],
+      "resource": [
+        "https://www.psychologytoday.com/us/basics/bystander-effect",
+        "https://listverse.com/2009/11/02/10-notorious-cases-of-the-bystander-effect/",
+        "https://studentaffairs.lmu.edu/wellness/lmucares/education/bystanderintervention/"
+      ],
+      "example": [
+        "Eugenio works at a marketing firm and has noticed that his one of coworkers, Mark, sometimes makes sexually inappropriate comments directed at female coworkers. While having lunch his supervisor, Eugenio brings up Mark's behavior. Eugenio's supervisor explains that he already knows about Mark's behavior, and that most of the employees are aware but all of them are afraid to bring it up, especially in the moment. Eugenio decides that since no one else will confront Mark, he won't either."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Cashless effect",
+      "related": [
+        "Denomination effect"
+      ],
+      "tags": [
+        "money",
+        "spending",
+        "credit",
+        "cash"
+      ],
+      "quote": [
+        "“Credit makes it possible for us to waste money before we have the money.” - Mokokoma Mokhonoana"
+      ],
+      "description": "The cashless effect is a bias in which we are more likely to spend large amounts of money with a credit card or non-physical form of payment than we would using cash. Because we do not have a physical reminder of our funds, and often don't carry a lot of cash (if any at all), we can easily make large purchases without directly feeling their impact on our finances.\n\nThe personal ramifications of the cashless effect can be seen when we accidentally overspend due to the ease of using digital forms of payment. There may also be fees for using credit cards at certain stores, adding insult to injury. On a societal scale, the push for cashless societies by financial institutions impacts the habits of all consumers, and can even threaten our privacy since companies processing payments can collect information on how we spend our money.\n\nWhile it may sometimes be safer to carry a credit card, and cash cannot be recovered when it's physically lost, ensuring that we treat credit cards, debit cards, and cryptocurrency like cash can protect us from overspending.",
+      "question": [
+        "Have you ever been surprised by a large balance on your credit card?"
+      ],
+      "overcome": "Since society has been pushed to be as cashless as possible due to the COVID-19 pandemic, and we do much of our shopping online, solely using cash is not a reasonable means of overcoming this bias. However, using cash when possible may slightly mitigate this effect. Better ways of combating this effect are through budgeting and thoroughly considering large purchases that are made easy with the use of digital payment methods. Setting notifications for card usage can also be a helpful reminder of how your spending is affecting your funds. Overall, making digital purchases as tangible as possible and setting limits to your spending is a great way make your cards feel like cash.",
+      "resourceName": [
+        "ACLU",
+        "The Decision Lab",
+        "Coglode"
+      ],
+      "resource": [
+        "https://www.aclu.org/news/privacy-technology/say-no-cashless-future-and-cashless-stores",
+        "https://thedecisionlab.com/biases/cashless-effect",
+        "https://www.coglode.com/research/cashless-effect"
+      ],
+      "example": [
+        "Maru likes to get sandwiches from a bodega that only takes cash up to a certain limit. Often, she finds that she doesn't meet the card limit and doesn't have cash on hand. Knowing that she's using credit, she'll often grab a few more items, and when she's prompted for a tip, she selects a higher percentage than she would with cash. Because the transaction is easier with a credit card, she ultimately spends far more than she would if she was buying the sandwich with cash. "
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Category size bias",
+      "related": [
+        "Base-rate fallacy"
+      ],
+      "tags": [
+        "gambling",
+        "chance",
+        "probability"
+      ],
+      "quote": [
+        "\"Sometimes a 3-1 favorite loses. That's why they call it gambling, and that's why they keep flipping over the cards.\" - Richard Roeper"
+      ],
+      "description": "Category size bias occurs when we assume that an outcome is more likely if it's in a large category, even if it's not actually more probable. For instance, while we might assume that since vowels make up about 19% of the alphabet, they will make up 19% of all words in a dictionary. In reality, vowels make up over 30% of the letters of words in the Concise Oxford Dictionary.\n\nOn an individual level, category size bias often manifests in gambling, where we bet on something that makes up a greater percentage of available items, but that won't necessarily end up being the selected item. Systemically, category size bias can warp our perceptions of medical information as we perceive illnesses to be more likely when they have more risk factors.\n\nBy paying more attention to the individual event rather than its category, we can make more logical predictions and prevent ourselves from relying on unfounded probabilities.",
+      "question": [
+        "Would you rather buy a product from a company that has a large share of the market or a small company?"
+      ],
+      "overcome": "Overcoming the category size bias involves recognizing that the likelihood of an event in a given category is not based on how big or small the category is. Instead, we must take into account other factors to make an accurate estimate of an event's probability.",
+      "resourceName": [
+        "The Decision Lab",
+        "Coglode",
+        "University of Notre Dame"
+      ],
+      "resource": [
+        "https://thedecisionlab.com/biases/category-size-bias",
+        "https://www.coglode.com/research/category-size-bias",
+        "https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html"
+      ],
+      "example": [
+        "Terri is a college counselor for a large, high-ranking private high school. She knows that her high school has more applicants than any other high school to a nearby prestigious, liberal arts college. Because of her school's reputation and the fact that it has the largest share of applicants, she assumes that her high school will have the highest number of students admitted to the college. However, after the acceptance letters are sent, she discovers that another high school had more accepted students than hers, and is confused as to how this could be possible."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Cheerleader effect",
+      "related": [
+        "Contrast effect"
+      ],
+      "tags": [
+        "optical illusion",
+        "illusion",
+        "group photo",
+        "dating",
+        "attractiveness",
+        "physical attractiveness"
+      ],
+      "quote": [
+        "\"What about those girls over there? They're hot.\" \"They're not hot. You have just become victims of the Cheerleader effect.\" - How I Met Your Mother"
+      ],
+      "description": "The cheerleader effect, also known as the group attractiveness effect, is a bias in which we find a person in a group to be more attractive than we would if they were alone. By being surrounded by others, an individual's attractiveness is determined based on the attractiveness of the group they're a part of, rather than their own appearance.\n\nWhile the negative effects of this bias are mostly harmless, the cheerleader effect has been shown to distort our perception of how attractive other people are due to our brain's reaction when provided with groups of visual stimuli. The greater implication of the effect is that when we see several objects or patterns, such as faces, we process all of them at the same time, which in turn can make other patterns seem more similar to each other than they would if viewed individually.\n\nBy recognizing how optical illusions can impact our perception of others' attractiveness, we can find other means of gauging attractiveness and take advantage of the illusion when posting photos of ourselves or appearing in public.",
+      "question": [
+        "Have you ever used a picture of yourself in a group on a dating app to appear more likeable?"
+      ],
+      "overcome": "To overcome the cheerleader effect, we as observers may focus on pictures of people alone or other qualities such as personality or compatibility to gauge their attractiveness. As subjects of an image, overcoming the effect can be using it to our benefit. Although some dating advice may recommend against using group pictures in profiles, including a group photo is an effective way to take advantage of the cheerleader effect, especially if there are other attractive people in the picture. ",
+      "resourceName": [
+        "Scientific American",
+        "SAGE Journals"
+      ],
+      "resource": [
+        "https://www.scientificamerican.com/article/the-cheerleader-effect/",
+        "https://journals.sagepub.com/doi/10.1177/0146167215572799"
+      ],
+      "example": [
+        "While swiping through Tinder, Jo notices a profile picture of a seemingly attractive man, Tyler, with his friends. Jo and Tyler match and decide to meet up for coffee. When Jo arrives at the cafe, she sees Tyler sitting alone, and is taken aback. Although he didn't lie about his appearance, Tyler appears less attractive. The date goes well, and later Jo looks back at the group picture. Jo notices that some of Tyler's friends are very attractive, and that she perceived some of the people in the photo to be more attractive than they are when viewed carefully."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Chesterton’s fence",
+      "related": [],
+      "tags": [
+        "policy",
+        "change"
+      ],
+      "quote": [
+        "“Don’t ever take a fence down until you know the reason why it was put up.” - G.K. Chesterton"
+      ],
+      "description": "Chesterton's fence is a fallacy in which we advocate for changes to or the abolition of a policy without understanding why the policy was established in the first place. By not considering the reasoning of why a system is in place, our attempts at reform may cause issues that the system was mitigating to return or evolve into a worse scenario.\n\nIn most cases, Chesterton's fence is used in policy arguments, but the bias can also appear in a much smaller scope. For instance, after buying a new house, we might remove an overgrown tree from our garden, and later notice many of the plants that lived in its shade drying out from their new exposure to sunlight. Because we didn't consider the tree's ecological impact, we unintentionally cause harm to other plants in the garden.\n\nHowever, Chesterton's fence is often incorrectly invoked by individuals wishing to maintain a status quo despite reformers having evidence that a policy is failing. In terms of government spending, politicians may argue that decreasing the budget of an agency would be harmful, but the policy's reformers are able to show that unnecessary spending is occurring. Therefore, to prove that a scenario is a Chesterton's fence, the supporters of the proverbial fence must prove that those wishing to tear it down do not understand why it was originally \"built\".",
+      "question": [
+        "Have you ever thought that a law was unnecessary, only to later realize why it was put in place?"
+      ],
+      "overcome": "No matter whether we're reformers or defenders of a policy, we must understand why a policy exists and consider the consequences of changing or abolishing the policy. In either case, having this information will allow us to be more confident in our arguments, and have a better sense of whether the status quo needs to be changed.\n\nFor defenders of a policy, be careful when invoking Chesterton's fence if it is clear that reformers have done their research. For reformers, ask supporters of the policy why it should exist, and be open to other solutions if there are harmful effects that will inevitably occur. Either way, both parties must listen to each other and collaborate for the sake of progressing society.",
+      "resourceName": [
+        "Above the Law",
+        "Greater Wrong"
+      ],
+      "resource": [
+        "https://abovethelaw.com/2014/01/the-fallacy-of-chestertons-fence/",
+        "https://www.greaterwrong.com/posts/FtCdvfkoMf7H3XkhK/tearing-down-the-chesterton-s-fence-principle"
+      ],
+      "example": [
+        "Danielle is a student at a private school that has a strict dress code for girls, and creates a petition to make the code more lenient. When discussing her petition with the school's principal, the principal invokes Chesterton's fence, and argues that Danielle and the students don't understand how the dress code helps keep female classmates safe. However, Danielle provides research that dress codes do not prevent harrassment and an article about how the code was introduced when girls were first allowed to attend the school. The principal falls back on Chesterton's fence, misusing the fallacy since Danielle is aware of why the policy exists."
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Choice-supportive bias",
+      "related": [
+        "False memory",
+        "Positivity effect"
+      ],
+      "tags": [
+        "memory",
+        "decision-making"
+      ],
+      "quote": [
+        "“Sometimes you make the right decision, sometimes you make the decision right.” - Phil McGraw"
+      ],
+      "description": "Choice-supportive bias occurs when we recall more positive aspects of our choices in hindsight, even if we're aware that those choices were incorrect or poorly made. Conversely, we recall more negative aspects of choices that we didn't make. For instance, if we decide to not go to a party, we might focus on how great the TV show we watched at home was while thinking about how loud and crowded the party probably was, when in reality there were pros and cons to both options.\n\nThe negative effects of this bias are that we do not accurately view the choices that we make, and may justify poor decisions due to our false memory. On an individual level, this bias may make it difficult for us to receive feedback on our choices. On a societal level, individuals with a great deal of power, such as CEOs or politicians, may justify decisions that harm large amounts of people.\n\nBy working to view our choices objectively, and recognize that any choice will have pros and cons and that we're susceptible to mistakes, we can work to overcome choice-supportive bias.",
+      "question": [
+        "Have you ever tried to make the best of a purchase you knew you shouldn't have made?"
+      ],
+      "overcome": "To overcome choice-supportive bias, we must accept that we sometimes make mistakes and don't have the knowledge to always know what's in our best interest. While we strive to have a rational, logical policy to making decisions, we are capable of conflicting that policy. Therefore, we must recognize that all decisions have positive and negative consequences, and that sometimes we unintentionally make the choice that has more negative repercussions. To make us see our decisions more rationally while making them, we can try to notice our emotional state, and postpone decisions until we feel more level-headed. By not emotionally attaching to our decisions, we may feel less defensive when discussing them in the future.",
+      "resourceName": [
+        "Coglode",
+        "Strategic Management Journal",
+        "Changing Minds",
+        "Frontiers in Psychology"
+      ],
+      "resource": [
+        "https://www.coglode.com/nuggets/choice-supportive-bias",
+        "https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.3092",
+        "http://changingminds.org/explanations/theories/choice-supportive_bias.htm",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5723021/"
+      ],
+      "example": [
+        "Nadja is a manager at a coffee shop, and is tasked with hiring a new barista. She interviews three candidates, all of which have similar experience, and ends up hiring Luke. Although Luke starts strong at the cafe, his performance quickly deteriorates. Another barista asks Nadja why she hired him. Nadja explains that Luke had the most positive qualities out of all of the other candidates, and lists all of the negative qualities of the others. In reality, Nadja is remembering a skewed version of the hiring process to subconsciously defend her decision-making skills. "
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Confabulation",
+      "related": [
+        "Misattribution of memory",
+        "Mood-congruent memory bias",
+        "Cryptomnesia",
+        "False memory"
+      ],
+      "tags": [
+        "memory"
+      ],
+      "quote": [
+        "“You can fool yourself, you know. You'd think it's impossible, but it turns out it's the easiest thing of all.” - Jodi Picoult"
+      ],
+      "description": "Confabulation is a bias in which we relay false memories to others without the awareness that these memories did not occur. For instance, when talking with our parents, we may describe a vivid childhood memory, only to be told that our memory never happened. Although confabulation involves stating a falsehood, it is distinct from lying, as the individual describing their false memory is not attempting to deceive their audience and truly believes the memory occurred.\n\nUnless confabulation is happening due to a condition such as dementia or amnesia, the negative effects of this bias are typically minimal unless they appear in situations such as witness testimony. Often, confabulation appears when we are attempting to fill in the details on a memory that we know to be true. We may remember that we got pizza last week, the toppings we chose, and the price, but we may be convinced we ate the pizza on Wednesday when in reality we ate it on Tuesday. \n\nBy acknowledging that we may not remember every detail of events that have occurred to us, and distinguish when others confabulate, we can move forward knowing that these often harmless embellishments can be made by all of us.",
+      "question": [
+        "Have you ever told something you thought was true to a friend, only to later realize it wasn't?"
+      ],
+      "overcome": "Since confabulation is more likely to occur in stressful situations, we should consider our environment and emotional state when recalling memories. If we feel rushed to fill in gaps in our recognition, we may quicly convince ourselves of a false detail of a memory. When we are informed that these details are untrue or inaccurate, we should reflect on our memories and acknowledge whether we misremembered.",
+      "resourceName": [
+        "Colby.edu"
+      ],
+      "resource": [
+        "https://web.colby.edu/cogblog/2019/11/26/confabulations-i-am-honestly-not-lying-to-you/"
+      ],
+      "example": [
+        "Selena is at a job interview at a graphic design firm, trying to impress her potential superviser. When the interviewer asks Selena if she has experience with a new, cutting-edge design software. Selena quickly says yes, as she vividly remembers using a software with that name. After the interview, Selena looks at her resume, and realizes that she doesn't have experience with the software, and confused it with another similar software. She worries that the interviewer will think that she lied, despite not intending to be deceptive."
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Congruence bias",
+      "related": [
+        "Confirmation bias"
+      ],
+      "tags": [
+        "hypothesis",
+        "impression",
+        "proof"
+      ],
+      "quote": [
+        "“First impressions are always unreliable.” - Franz Kafka"
+      ],
+      "description": "Congruence bias occurs when we only attempt to prove our initial hypothesis in a given scenario. By focusing on proving our initial hypothesis, we do not attempt to disprove it, and thus ignore other possibile outcomes or explanations.\n\nThis bias can manifest in relatively insignificant ways, such as diagnosing technological issues or comprehending interpersonal situations. However, there can be especially negative consequences when it appears in realms such as the criminal justice system. For instance, if jurors find a reason to initially believe that a defendant is guilty, they may be less willing to listen to evidence of the contrary.\n\nBy ensuring that we try different hypotheses and don't focus solely on our first explanation, we can fight congruence bias and ensure that we find viable solutions to the many problems we face.",
+      "question": [
+        "Have you ever been told that your first instinct is always right?"
+      ],
+      "overcome": "To overcome congruence bias, two strategies are necessary to implement. The first is to seek out other possible explanations for a scenario and attempt to prove them as well as your initial hypothesis. By doing so, you may be able to find a hypothesis that's better than what you initially believed. The second strategy to overcoming this bias is to attempt to disprove your initial hypothesis, rather than solely attempt to prove it. By using counterarguments, you may strengthen your initial hypothesis or uncover its flaws.",
+      "resourceName": [
+        "Adcock Solutions",
+        "Journal of Applied Psychology"
+      ],
+      "resource": [
+        "https://www.adcocksolutions.com/post/what-is-congruence-bias",
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1559-1816.1990.tb00412.x"
+      ],
+      "example": [
+        "Reed is convinced that squirrels have been getting into his bird feeder, as he hasn't been seeing as many birds in his backyard. He takes several steps to squirrel-proof the feeder, including buying a new pole and using a different type of feeder entirely. After these changes, he still doesn't see many birds in his backyard, and becomes frustrated. However, Reed did not consider other reasons as to why there may be fewer birds in his backyard, and had he investigated more, he would've noticed a predatory bird's nest in a tree near the feeder."
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Conjunction fallacy",
+      "related": [],
+      "tags": [
+        "probability",
+        "plausibility"
+      ],
+      "quote": [
+        "“It doesn't have to make sense, it just has to sound like it does.” - Elmore Leonard"
+      ],
+      "description": "The conjunction fallacy is our tendency to believe an event is more likely to occur if it's described at a higher level of detail or in conjunction with a more plausible event. While a more generally described event, such as a \"storm in the midwest\", is more likely to occur than a \"EF2 tornado near Oklahoma City\", studies have shown that we find the more detailed event to have a greater chance of happening.\n\nBecause the conjunction fallacy stems from our confusion of probability and plausibility, we assume that events described in a more plausible manner are more likely to occur. The consequences of this bias can be seen when we completely contradict simple laws of logic due to how we perceive the information provided to us.\n\nWorking to recognize the conjunction fallacy and distinguish when we are making probability versus plausibility judgments can help prevent us from making choices based on faulty logic.",
+      "question": [
+        "Are you more likely to believe that a scenario will happen if you're given more detail about it?"
+      ],
+      "overcome": "The conjunction fallacy can be mitigated by carefully considering the probability of a situation rather than its plausibility. Just because a scenario seems less likely to occur based on our preconceptions does not actually mean that it is less likely to occur in reality. Furthermore, when presented with two scenarios in decision making, keep in mind that the more general scenario is more likely to occur if the other scenario is one of its subsets or includes the first scenario.",
+      "resourceName": [
+        "The Decision Lab",
+        "Frontiers in Psychology"
+      ],
+      "resource": [
+        "https://thedecisionlab.com/insights/society/decision-biases-among-lawyers-conjunction-fallacy",
+        "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01011/full"
+      ],
+      "example": [
+        "Vince hasn't seen his friend Tara in several years, but sometimes hears about her from mutual friends. Vince knows that Tara was interested in nature and always talked about living in a rural area, and is shocked when friends mention that Tara now lives in a huge city. However, one friend explains to Vince that while Tara lives in a huge city, she also works as an urban farmer. Knowing Tara, Vince finds this scenario more probable despite not finding the fact that Tara lives in a city individually plausible."
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Context effect",
+      "related": [
+        "Framing effect"
+      ],
+      "tags": [
+        "decision making",
+        "perspective"
+      ],
+      "quote": [
+        "\"Sometimes your greatest strength can emerge as a weakness if the context changes.\" - Harsha Bhogle"
+      ],
+      "description": "The context effect is a bias in which we make different decisions based on the context in which the decision arises. For instance, if we are answering a series of questions, our answers to previous questions will inform how we answer a current question.\n\nThe effects of this bias can be seen especially when we're making purchases. Corporations may rely on product placement or the organization of the environment in which the purchase is being made in order to encourage more spending. For instance, in a grocery store, staple items may be placed in difficult to reach location so that customers are exposed to more foods during their visit, and cheaper items may be placed in areas closer to the checkout lines so that they may be easily added to the cart.\n\nWhen we are inconsiderate of the environment in which we're making a decision, we may make choices that we otherwise wouldn't make. By being conscious of context, we can ensure that our actions are in line with our over arching goals and desires, and prevent ourself from being manipulated. \n",
+      "question": [
+        "Consider the last major decision you made. Can you imagine a scenario in which you wouldn't have made the same choice?"
+      ],
+      "overcome": "Overcoming this bias involves carefully considering the context of a decision before making it. Before making a choice, think about whether you would make the same choice under different circumstances, such as if you had more or less money and were in a different physical location. If a different decision would be made in a different context, ask yourself if the outcome of that decision is better than the outcome of the current choice, and how you can change your behavior and environment to arrive at a better conclusion.",
+      "resourceName": [
+        "Current Psychology",
+        "Customer Needs and Solutions",
+        "Science Direct"
+      ],
+      "resource": [
+        "https://link.springer.com/article/10.1007/s12144-012-9150-5#Sec3",
+        "https://www.hbs.edu/ris/Publication%20Files/Thomadsen%20et%20al%202017%20-%20How%20Context%20Affects%20Choice_3053d369-3473-45fc-94a3-b18cd100d5d3.pdf",
+        "https://www.sciencedirect.com/topics/social-sciences/context-effect"
+      ],
+      "example": [
+        "Deirdre is a guitarist and often shops at a local music store. While buying new strings one day, she notices a beautiful used Fender that's on sale. The store's clerk explains that they've been trying to sell it for a while, and that it's in great shape. On a whim, Deirdre decides to buy the guitar, despite seeing it for months and choosing not to under other circumstances."
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Continued influence effect",
+      "related": [],
+      "tags": [
+        "misinformation",
+        "disinformation",
+        "gossip",
+        "truth",
+        "lies"
+      ],
+      "quote": [
+        "\"A lie gets halfway around the world before the truth has a chance to get its pants on.\" - Winston Churchill"
+      ],
+      "description": "The continued influence effect is our propensity to rely on incorrect or outdated information, even if we have been informed that the information is flawed. For instance, even though eating carrots doesn't improve our eyesight more than eating other foods that are a good source of vitamin A, we may still feel like we're helping our eyes when we eat them.\n\nIn terms of our friendships and relationships, the continued influence effect can be harmful when we spread or receive lies about other people. Even if we find out that the information given to us was a lie, we may continue associating individuals with the information regardless. On a systemic level, fake news and misinformation can spread to large numbers of people, who may continue relying on that information even after it has been disproved.\n\nAlthough it's difficult if not impossible to stop the continued influence of false information, by making an effort to verify information and accept retractions, we can mitigate the negative effects of this bias.",
+      "question": [
+        "If you heard that your favorite restaurant had a pest problem, and the restaurant proved that no such problem existed, would you still be as likely to eat there?"
+      ],
+      "overcome": "Preventing the continued influence of false information is extremely difficult. However, when an opportunity arises to correct misinformation, it is critical to be as direct in explaining the truth as possible. Furthermore, the truth of an event or piece of information must be described in as much detail as possible, as doing so will help the audience commit the new explanation to memory.\n",
+      "resourceName": [
+        "Cognitice Research: Principles and Implications",
+        "PLOS One",
+        "WebMD"
+      ],
+      "resource": [
+        "https://cognitiveresearchjournal.springeropen.com/articles/10.1186/s41235-021-00335-9",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0271566#:~:text=Misinformation%20regarding%20the%20cause%20of,continued%20influence%20effect%20(CIE).",
+        "https://www.webmd.com/eye-health/fact-fiction-myths-about-eyes"
+      ],
+      "example": [
+        "Regina is the incumbent in an upcoming school board election. However, a few months ago, a Facebook post claiming that Regina stole some of her campaign money spread all over her social media. While Regina made a response proving that she didn't steal the money, she still notices a steep drop in her votes in the election, and barely keeps her seat despite winning by a landslide in the previous election."
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Contrast effect",
+      "related": [
+        "Cheerleader effect"
+      ],
+      "tags": [
+        "comparison",
+        "difference",
+        "contrast",
+        "juxtaposition"
+      ],
+      "quote": [
+        "“Comparison is the thief of joy.” - Theodore Roosevelt"
+      ],
+      "description": "The contrast effect occurs when we compare two elements by juxtaposition, thereby exaggerating their differences. For instance, if two objects that are a similar shade of blue are placed next to each other, we may notice a difference in their tone that we wouldn't have if we'd viewed each object individually.\n\nThe consequences of the contrast effect are that our perception of the two items can be skewed. This issue sometimes arises on social media, when we compare ourselves to (often carefully curated) images and information about other people, thus perceiving a stark contrast that may not exist in reality. Alternatively, comparison may make us feel more positively about ourselves after exaggerating these differences, but our perception is still skewed.\n\nAlthough making comparisons is critical to understanding the quality of products, our strengths and areas of improvement, and other vital information for navigating our world, we must be careful when these comparisons are limited or exaggerated.",
+      "question": [
+        "Have you ever compared your pictures on social media to someone else's? If so, you feel that the comparisons you make are realistic? "
+      ],
+      "overcome": "While it's impossible and unreasonable for us to not make comparisons between two items, there are ways in which we can more realistically judge the comparisons that we make. Rather than evaluate two options, introducing more options to a comparison and doing further research can help understand the true landscape of our choices. For instance, if two expensive items are compared solely against each other, we might assume the relatively inexpensive item is a good deal, when in reality cheaper options exist. Furthermore, putting time or space between evaluations of two items can lessen the stark differences between them and help us appreciate their similarities as well as differences.",
+      "resourceName": [
+        "APA Dictionary of Psychology",
+        "Effectiviology"
+      ],
+      "resource": [
+        "https://dictionary.apa.org/contrast-effect",
+        "https://effectiviology.com/contrast-effect/"
+      ],
+      "example": [
+        "Yolanda is applying to colleges and hopes to get into a good school for theatre. After her friend Ryan gets into her dream school, Yolanda is disappointed to find out that she's been rejected. However, she gets into her second choice, another school that has a phenomenal theatre program. Yolanda goes online to compare the two programs, but after juxtaposing their budgets, alumni, and other amenities becomes more frustrated as she exaggerates the small differences between them."
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Cross-race effect",
+      "related": [],
+      "tags": [
+        "race",
+        "face",
+        "facial recognition",
+        "criminal justice"
+      ],
+      "quote": [
+        "\"The problem is not that we can't code the details of cross-race faces--it's that we don't.\" - Daniel Levin"
+      ],
+      "description": "The cross-race effect, also known as the own race bias or other race effect, is a bias in which we are better able to remember faces belonging to our own racial group. Conversely, we are worse at remembering faces belonging to other racial groups. While there are various theories as to why this phenomenon exists, it has been shown to occur in many studies with various racial groups around the world.\n\nOn an individual level, this bias can be harmful in social situations in which we do not fully encode into memory the faces of peers belonging to a different racial group, thereby misidentifying or misremembering others. On a systemic level, this bias can be detrimental in the criminal justice system. Eyewitness testimony can be flawed as individuals incorrectly identify suspects in a crime when those suspects belong to another racial group. Furthermore, by only training facial recognition technology on images of faces belonging to our own race, we may unintentionally instill this bias into our technology.\n\nBy viewing our peers as individuals rather than focusing on racial labeling, as well as working to better remember facial features of other people belonging to racial groups other than our own, we can combat this bias and mitigate some of its most harmful effects.",
+      "question": [
+        "Do you feel like you're able to better at remembering faces of people who have the same racial background as you?"
+      ],
+      "overcome": "To overcome this bias, we don't need to pretend that differences don't exist between the faces of people in various racial groups. In fact, we should try to pay attention and appreciate our differences so that we can better remember the faces of others. However, trying not to immediately label a peer as a member of a different racial group can help prevent us from dismissing the face as one that we don't need to remember. In this way, we appreciate the individuality of our peer rather than place them in another group to blend in with. While simple social exposure to other races has not been shown to negate the cross-race effect, there has been a study showing that being exposed to individuals of other racial backgrounds as an infant may have an impact on the strength of this bias.",
+      "resourceName": [
+        "Memory &amp; Cognition",
+        "Frontiers in Psychology",
+        "Social Issues and Policy Review",
+        "Forbes"
+      ],
+      "resource": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3740049/#:~:text=The%20Cross%2DRace%20Effect%20(CRE,Malpass%20%26%20Kravitz%2C%201969).",
+        "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00208/full",
+        "https://www.researchgate.net/profile/Kurt-Hugenberg/publication/259551789_The_Cross-Race_Effect_and_Eyewitness_Identification_How_to_Improve_Recognition_and_Reduce_Decision_Errors_in_Eyewitness_Situations/links/5aabd130a6fdcc9f49fdf8de/The-Cross-Race-Effect-and-Eyewitness-Identification-How-to-Improve-Recognition-and-Reduce-Decision-Errors-in-Eyewitness-Situations.pdf?_sg%5B0%5D=started_experiment_milestone&amp;origin=journalDetail&amp;_rtd=e30%3D",
+        "https://www.forbes.com/sites/rosspomeroy/2014/01/28/think-they-all-look-alike-thats-just-the-other-race-effect/?sh=3e142b443819"
+      ],
+      "example": [
+        "Adam works at a gas station in a predominately white town. One day, Hank, who identifies as Asian-American, stops by the gas station. Adam and Hank briefly talk, though Adam doesn't pay much attention to the conversation. A few days later, Adam sees a man who looks like Hank, and is confused when the man doesn't seem to recognize him. Upon swiping the man's credit card, Adam realizes that the current customer is not Hank, and realizes that he can't really remember Hank's distinct facial features beyond what he typically considers an Asian person to look like."
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Cue-dependent forgetting",
+      "related": [
+        "Mood-congruent memory bias"
+      ],
+      "tags": [
+        "memory",
+        "cue",
+        "retrieval"
+      ],
+      "quote": [
+        "“Nothing is ever really lost to us as long as we remember it.” - L. M. Montgomery"
+      ],
+      "description": "Cue-dependent forgetting occurs when we cannot remember something because we have not been exposed to the necessary cue or stimuli to recall the information in our mind. In this case, the memory is still available to us and may still be completely intact, but is not currently accessible to us. \n\nThe effects of this bias can be frustrating, as information may still be stored in our long-term memory but cannot be accessed when needed. In situations where memory recall is pertinent, such as exams, we may have thoroughly studied the material at hand, but because of ingruencies in our environment and state of mind during the test versus during studying, we might not have the proper cues to access the answers.\n\nBy being considerate of our state of mind and environment when encoding critical information, we can take advantage of this bias, and ensure that we have the cues necessary to retrieve the information we need when the time comes to use it.\n\n",
+      "question": [
+        "Have you ever needed to retrace your steps to find a missing item in your house?"
+      ],
+      "overcome": "The causes of cue-dependent forgetting can be taken advantage of to better remember information stored in our long-term memory. By designating external and internal cues to correspond to memories, we can better access them later. For instance, the creation of mnemonic devices to remember information can help us recall tricky-to-remember information later. Alternatively, accounting for the environment, either internal or external, in which a memory happened and returning to or recreating that environment can help trigger the memory to return.",
+      "resourceName": [
+        "American Scientist",
+        "APA Dictionary of Psychology",
+        "CogBlog",
+        "Simply Psychology"
+      ],
+      "resource": [
+        "https://www.jstor.org/stable/27844717?searchText=cue+dependent+forgetting&amp;searchUri=%2Faction%2FdoBasicSearch%3FQuery%3Dcue%2Bdependent%2Bforgetting&amp;ab_segments=0%2FSYC-6744_basic_search%2Ftest-1&amp;refreqid=fastly-default%3Aa3f608f5e164af5c599941b72d6b46599",
+        "https://dictionary.apa.org/cue-dependent-forgetting",
+        "https://web.colby.edu/cogblog/2019/11/26/ohhh-cue-cue-dependent-forgetting-and-study-techniques/#:~:text=It%20is%20important%20to%20remember,you%20forgetting%20what%20you%20studied.",
+        "https://www.simplypsychology.org/forgetting.html"
+      ],
+      "example": [
+        "Kathleen recently went on a date to a restaurant that had excellent pasta. However, because she was focused on the impression she was making and trying to figure out if she was compatible with her date, Kathleen wasn't paying much attention to what she ordered. She decides to go to the restaurant again, but even after looking at the menu, she still can't figure out which dish she ordered. To try to remember, she recalls the mental state that she was in during dinner, and orders what she believes she would've ordered in the same scenario."
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Defensive attribution hypothesis",
+      "related": [
+        "Actor-observer bias"
+      ],
+      "tags": [
+        "victim",
+        "victim blaming",
+        "observer"
+      ],
+      "quote": [
+        "“Does one deserve to have evil done to her by consequence of putting herself where evil can reach her?” - Brandon Sanderson"
+      ],
+      "description": "The defensive attribution hypothesis is a bias in which we determine the cause for an event based on our fear of being a victim in a similar scenario or crticism of our actions in a similar situation. By attributing blame in this way, we convince ourselves that we would have acted differently if we were the victim in such a situation, or that our previous actions were justified, when in reality that may not be the case.\n\nOne of the most harmful manifestations of the defensive attribution hypothesis is victim blaming, in which the actions of a victim rather than a perpetrator are scrutinized for fault. A common example of victim blaming occurs when an individual has been sexually assaulted, but observers are more focused on choices that the individual made such as wearing revealing clothing or being intoxicated rather than the assailant's decision to harm the victim. Blaming the victim in this case allows observers to convince themselves that they could avoid the assault if they were in the same position, or excuse similar actions they may have done in the past.\n\nChallenging the defensive attribution hypothesis involves recognizing that we all have the ability to harm and be harmed, and in some scenarios, there may not even be anyone to blame. By becoming comfortable with these facts, we can better diagnose the causes of harmful situations we face, and improve our own behavior.",
+      "question": [
+        "Have you ever felt like someone didn't take the logical steps to protect themselves from a crime?"
+      ],
+      "overcome": "To overcome the defensive attribution hypothesis, it is necessary to resist immediately blaming individuals in a given scenario. In many cases, such as natural disasters, there is no human to blame for the initial destruction caused. If someone's house has been destroyed, remember that natural disasters could happen anywhere, and while you may want to believe that you would be more prepared to handle the damage, stopping such a catastrophe not within the power of yourself and others. Furthermore, listening to the experience of others without the intent to attribute blame can be helpful to victims, as we hope to have the same support if we ever find ourselves to be victims in the future.",
+      "resourceName": [
+        "APA Dictionary of Psychology",
+        "Journal of Personality and Social Psychology",
+        "Violence Against Women",
+        "One Mind Therapy"
+      ],
+      "resource": [
+        "https://dictionary.apa.org/defensive-attribution",
+        "https://web.archive.org/web/20100604013702/http://www.uwsp.edu/psych/s/389/walster66.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/31226009/#:~:text=Defensive%20attribution%20posits%20that%20victim,effectiveness%20in%20men%20and%20women.",
+        "https://onemindtherapy.com/social-psychology/defensive-attribution/"
+      ],
+      "example": [
+        "Gret and Sally are friends. Gret lives in an area with a low reported crime rate, while Sally lives in a neighborhood with a higher reported crime rate. Gret, who has a strong fear of being a victim of theft, often tells Sally that she should move elsewhere. One night, Sally's car gets broken into. Rather than blame the thief, Gret blames Sally for not moving to a safer neighborhood, as Gret did."
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Delmore effect",
+      "related": [],
+      "tags": [
+        "goal",
+        "achievement",
+        "priority"
+      ],
+      "quote": [
+        "\"When I was growing up I always wanted to be someone. Now I realize I should have been more specific.\"\n- Lily Tomlin"
+      ],
+      "description": "The Delmore effect is a phenomenon in which we broadly define our most important goals while being more explicit about our low-priority goals. For instance, we may be very specific about how to complete our smaller daily tasks at work, but not have a concrete approach to our larger goal of finding a better job. \n\nBecause of this effect, our higher-priority goals become more difficult to attain, as we view them as a whole rather than as the smaller steps needed for their achievement. Without breaking down major life goals into well-defined, manageable pieces, we have little ability to achieve them, and cannot compare their priority to the other tasks we need to complete.\n\nBy resisting the Delmore effect, we are able to create the plans necessary to achieve long-term goals by working in the short-term with concrete definitions of what we would like to achieve.",
+      "question": [
+        "Have you ever felt like you were more focused on lower priority goals while avoiding broad, life-changing goals?"
+      ],
+      "overcome": "Overcoming the Delmore effect involves being conscious of how our goals are set, and ensuring that they are specific and achieveable. However, when setting these goals, we need to be cautious of how strict we are with ourselves and ensure that our rewards for the goals' completion do not undermine our efforts. By not overwhelming ourselves, and being kind to ourselves when we do not meet our goals, we can stay motivated for the long term and have a better understanding of the short-term plan that we've committed to.",
+      "resourceName": [
+        "Medium"
+      ],
+      "resource": [
+        "https://medium.com/@hormetic/the-trouble-with-goals-1519ec23f878"
+      ],
+      "example": [
+        "For her New Year's resolution, Vera would like to become physically stronger. The first two weeks of January, she goes to the gym, but doesn't track her progress or have any specific definition for the \"strength\" she would like to achieve. When she doesn't make any noticeable progress, she starts losing motivation. Meanwhile, she is much better at achieving smaller, well-defined goals such watching another episode of a TV show she enjoys, though doing so isn't her highest priority."
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Denomination effect",
+      "related": [
+        "Cashless effect"
+      ],
+      "tags": [
+        "money",
+        "currency",
+        "bills",
+        "spending"
+      ],
+      "quote": [
+        "\"It's just money; it's made up. Pieces of paper with pictures on it so we don't have to kill each other just to get something to eat.\" - Jeremy Irons"
+      ],
+      "description": "The denomination effect is a type of mental accounting in which we prefer spending cash in smaller denominations. For instance, if we have a five-dollar bill and a twenty-dollar bill, we are more likely to use the five-dollar bill to buy a four-dollar item than the twenty-dollar bill. Likewise, if we only have larger denominations, we are less likely to spend any money altogether.\n\nAs with other mental accounting biases, the denomination effect impacts our ability to rationally save and spend money. Rather than treat the smaller denominations and larger denominations as equal if they are worth the same amount, we treat them differently. Therefore, we may end up spending more money because we feel that the smaller denominations are of less value, even though we might have the same amount of money in smaller and larger denominations.\n\nBy working to view money as objectively as possible, we can exert greater control over our budget, and become aware of the eccentricities of how our mind perceives currency.",
+      "question": [
+        "If you had a fifty dollar bill and fifty dollars worth of one dollar bills, which fifty dollars would you save in the bank and which would you use for spending?"
+      ],
+      "overcome": "Because we are less likely to spend money in larger denominations, it can be helpful to get change in larger denominations as a self control mechanism. Therefore, when we're withdrawing our money from the bank or getting cash back after using a debit card, we should try to receive that money in as large of denominations as possible. Furthermore, budgeting and viewing smaller denominations of bills can help us see our money more rationally and be careful regarding our spending. Although this bias occurs when cash is used, using credit cards instead may lead to the propagation of other biases such as the cashless effect.",
+      "resourceName": [
+        "Sound Economics",
+        "Journal of Consumer Research"
+      ],
+      "resource": [
+        "https://blogs.pugetsound.edu/econ/2018/04/13/the-denomination-effect/",
+        "https://www.jstor.org/stable/pdf/10.1086/599222.pdf"
+      ],
+      "example": [
+        "Harrison is a bartender at an upscale restaurant, and often comes home with a large sum of money in smaller denominations, which he uses for small purchases. One night, a generous customer gives Harrison a fifty dollar bill. Rather than use the fifty dollar bill for small purchases, Harrison feels the need to deposit it in his bank account. However, Harrison also received seventy dollars in ones and fives that night, and still used those for smaller purchases even though they constituted a greater sum of money."
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Duration neglect",
+      "related": [],
+      "tags": [
+        "time",
+        "moment",
+        "experience"
+      ],
+      "quote": [
+        "“Life is not measured by time. It is measured by moments.” - Armin Houman"
+      ],
+      "description": "Duration neglect is a phenomenon in which the duration of a traumatic or pleasant event has no bearing on our subsequent feelings toward the event. For instance, according to the theory of duration neglect, if we have a great time going out with our friends, we do not consider the length of time in evaluating our experience and instead focus on the key moments.\n\nWhile there have been many experiments demonstrating duration neglect, some studies have shown that duration still plays a role in our experience of events, even if we do not directly perceive it. Therefore, the structure of the key moments of an event and their durations may still make an impact.\n\nWhen we acknowledge that an event's duration does not directly affect our experience, we can feel some relief when we find a great moment to be short or an unpleasant moment to drag on unnecessarily.",
+      "question": [
+        "Consider a moment in your life where you felt especially happy. Do you remember how long that experience lasted, and does its duration impact your feeling towards it?"
+      ],
+      "overcome": "Rather than overcoming duration neglect, it is beneficial to take advantage of the bias, especially when we are concerned with the duration of a pleasant experience. When we understand that the duration of a good experience does not weigh on our perception of the event, we can focus more on the quality of the key moments of the experience rather than trying to stretch the good experience longer than necessary.",
+      "resourceName": [
+        "Journal of Personality and Social Psychology",
+        "Yale Center for Consumer Insights"
+      ],
+      "resource": [
+        "https://psycnet.apa.org/fulltext/1993-40203-001.pdf?auth_token=2f28006903e944a2ddd7a97da54e539eea6ceaca",
+        "https://som.yale.edu/blog/how-duration-affects-consumer-experience"
+      ],
+      "example": [
+        "Keith has to go to the DMV twice in a short period of time. The first time, he arrives when there isn't much of a line, but has an awful experience regardless, as the employee taking is paperwork is in a bad mood, and argues with him over the forms of identification he's brought. When Keith returns to the DMV later that week, there is a long line. However, Keith befriends another person in line, and enjoys the experience and talking with them while waiting. Furthermore, the employee helping him this time is patient and kind. When thinking about his experiences in hindsight, Keith is focused more on his interactions with others rather than their durations."
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Effort justification",
+      "related": [],
+      "tags": [
+        "work",
+        "achievement",
+        "justification",
+        "difficulty"
+      ],
+      "quote": [
+        "\"Nothing ever comes to one, that is worth having, except as a result of hard work.\" - Booker T. Washington"
+      ],
+      "description": "Effort justification is a bias in which we feel more satisfied after completing tasks that are difficult or unpleasant. By exerting more effort to complete a task, we seek to feel more positively about it in order to justify our actions. For instance, if we have a difficult time trying to fix our computer, in order to justify our frustration, we will try to feel more accomplished than if we only needed to perform an easy fix.\n\nWhile effort justification can help us feel confident after struggling through challenges, the negative effects of this bias can be seen when it's used to rationalize the completion of useless or unenjoyable tasks. An especially harmful example of effort justification is hazing, as individuals being intiated into a social group are put through unnecessarily strenuous or embarrassing rituals to gain membership, though often look back fondly on the experience and force new members to undergo the same process.\n\nWhen we stop justifying unnecessary and unenjoyable effort, we learn to work smarter rather than harder and put our time and energy into pursuits that are fulfilling to us, and gain a more self-respecting sense of achievement.",
+      "question": [
+        "Do you feel a greater sense of achievement after you've completed an easy task or a difficult one?"
+      ],
+      "overcome": "To overcome effort justification it is necessary to separate accomplishment from the investment of effort. Ideally, we should feel just as accomplished after completing the same task regardless of the effort we've exerted. Furthermore, when we recognize that a difficult task is unnecessary, we should remember that we are not obligated to complete it, and putting ourselves through hardship will prevent us from taking actions that are meaningful or enjoyable. In terms of hazing, revisiting traditions and finding less harmful ways of initiating individuals into a social group can help facilitate a positive experience rather than forcing new members to bond through suffering.",
+      "resourceName": [
+        "APA Dictionary of Psychology",
+        "Journal of Experimental Social Psychology",
+        "Western Undergraduate Psychology Journal",
+        "Facile Things"
+      ],
+      "resource": [
+        "https://dictionary.apa.org/effort-justification",
+        "https://www.sciencedirect.com/science/article/pii/0022103185900125",
+        "https://ir.lib.uwo.ca/wupj/vol1/iss1/11/",
+        "https://facilethings.com/blog/en/effort-justification"
+      ],
+      "example": [
+        "Nancy is a fan of extremely difficult video games, but doesn't actually enjoy playing them. After beating the latest installment of her favorite game franchise, she brags about her accomplishment, and happily receives compliments from her friends on her achievement. In reality, she uses these compliments to justify the frustrating experience she had when struggling through the game."
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Egocentric bias",
+      "related": [
+        "Empathy gap"
+      ],
+      "tags": [
+        "perspective",
+        "empathy",
+        "ego",
+        "self-centeredness"
+      ],
+      "quote": [
+        "“You are the main character in the story of your life, but other people are the main characters of their own lives. And sometimes you can find healing just by playing a supporting role in someone else's experience.” - Timothy Kurek"
+      ],
+      "description": "The egocentric bias occurs when we overestimate the degree to which others' perspective aligns with our own. By doing so, we may have difficulty considering the true thoughts and opinions of others, and in the worst case might completely ignore them. Furthermore, we may inflate our perceived role in life events that we actually had little involvement in.\n\nThis bias can be harmful in our relationships, as we make assumptions about what our friends and families are thinking, or react negatively when we discover incongruencies between their perspectives and our own. On a societal scale, this bias can be seen in resource management, as various parties vying for assets see themselves as more deserving due to an inability to recognize the needs of other parties.\n\nWhile we by nature must rely heavily on our own cognition to understand our lives, we must rely on others to understand our impact and ensure that our actions are not harmful. It's easy to assume how we are perceived, but by taking the steps to ask others and be reflective, we can demonstrate self growth and feel more connected to one another.",
+      "question": [
+        "Have you ever brought up a time you felt embarrassed in front of your friends, and no one else remembers it?"
+      ],
+      "overcome": "Because we are only able to experience the world through our own cognition, this bias can be difficult to overcome. However, a few techniques exist that can help us try to expand our perspective and consider our impact in a given situation as well as the viewpoints of others. Asking others about their perspective and receiving feedback on your own can aid in empathizing and better understanding how your actions affect others. On a personal level, looking at yourself and your actions from a second- or third-person perspective (i.e. thinking about yourself as \"you\" or your name instead of using \"I\") can help you develop your self-awareness.",
+      "resourceName": [
+        "The Decision Lab",
+        "Effectiviology",
+        "City University of Hong Kong"
+      ],
+      "resource": [
+        "https://thedecisionlab.com/reference-guide/psychology/the-similar-to-me-effect",
+        "https://effectiviology.com/egocentric-bias/",
+        "https://www.researchgate.net/profile/Kwok-Kit-Tong/publication/8545835_Effects_of_Interactional_Justice_on_Egocentric_Bias_in_Resource_Allocation_Decisions/links/540fc7560cf2df04e75a3889/Effects-of-Interactional-Justice-on-Egocentric-Bias-in-Resource-Allocation-Decisions.pdf"
+      ],
+      "example": [
+        "As a hobby, Dhruv has been getting into standup comedy, and takes part in a weekly writer's workshop over Zoom. Although he feels confident online, he feels extremely nervous when performing at his first open mic night at a noisy bar. During his set, Dhruv is convinced that everyone can see how much he's shaking and rushing through his jokes, and assumes that everyone thinks he's performing poorly because the audience isn't laughing a lot. Afterwards, his friends congratulate him on a great set, confusing him. In reality, most of the crowd that night wasn't paying attention to the open mic night at all."
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Halo effect",
+      "related": [],
+      "tags": [
+        "impression",
+        "generalization",
+        "personality"
+      ],
+      "quote": [
+        "\"The way you make an omelet reveals your character.\" - Anthony Bourdain"
+      ],
+      "description": "The halo effect occurs when we identify a positive trait in someone else and thus assume that their other traits are positive. For instance, if we see someone who's physically attractive, we may assume that they have other positive traits such as kindness, intelligence, and a great sense of humor. Conversely, if we identify a negative trait, we may assume that all of the individual's traits are negative. When a negative trait leads us to a poor overall impression of someone's character, this bias is called the horn effect.\n\nThe perceived goodness of others based on singular traits such as physical attractiveness or a sense of humor can have major ramifications when extrapolated throughout our society. For instance, people who are perceived as more physically attractive have been shown to receive better grades and performance reviews than less physically attractive peers, and are even less likely to be convicted of crimes.\n\nTherefore, it is critical to not let first impressions dominate our perceptions of others, and ensure that we are not assuming that people are perfect based on one aspect of their complex being.",
+      "question": [
+        "Have seen an attractive person and immediately assumed they were kind, funny, and smart?"
+      ],
+      "overcome": "To overcome the halo effect, it can be helpful to create multiple impressions of people when you meet them for the first time, and use concrete information that you learn about them to help decide which parts of an impression are valid. For instance, if you meet someone who has a great sense of humor, imagine versions of them that are kind and mean, and get to know them better before deciding which characteristic is more fitting.\n\nAnother important strategy to combating the halo effect is to slow down the process of getting to know someone. By taking your time to get to know new friends, coworkers, and people you're dating, it can help you get a more objective sense of what the other person is actually like, and whether or not they're compatible with your beliefs and interests.",
+      "resourceName": [
+        "WebMD",
+        "Very Well Mind",
+        "Frontiers",
+        "The Decision Lab",
+        "Psychology Today"
+      ],
+      "resource": [
+        "https://www.webmd.com/mental-health/what-is-halo-effect#:~:text=Examples%20of%20Halo%20Effect,-A%20common%20halo&amp;text=For%20example%2C%20you%20might%20see,what%20is%20beautiful%20is%20good%E2%80%9D.",
+        "https://www.verywellmind.com/what-is-the-halo-effect-2795906",
+        "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02160/full#:~:text=In%20the%20early%20laboratory%20work,(Efran%2C%201974%3B%20Leventhal%20and",
+        "https://thedecisionlab.com/biases/halo-effect",
+        "https://www.psychologytoday.com/us/blog/stretching-theory/202110/the-halo-effect-what-it-is-and-how-beat-it"
+      ],
+      "example": [
+        "Taylor is a talented music student who performs piano concerts on the weekend. During her show, an another student, Jesse, sees Taylor playing and assumes that she must be extremely intelligent and confident to be able to play piano so well. After the show, Jesse talks to Taylor, and realizes that she's actually soft-spoken and shy, and Taylor even mentions how she receives poor grades in non-musical subjects. Jesse is shocked at how different Taylor is from her first impression, but in reality, her assumptions were only based on a single trait."
+      ]
+    },
+    {
+      "id": 32,
+      "name": "IKEA effect",
+      "related": [],
+      "tags": [
+        "self-made"
+      ],
+      "quote": [
+        "\"If you want a thing done well, do it yourself.\" - Napoleon Bonaparte"
+      ],
+      "description": "The IKEA effect, named for the furniture store that sells some pieces requiring customer assembly, occurs when we place disproportionately high value on things we expended effort to create. By overestimating the value of items we've assembled or partially constructed, we may ignore when the result of our labors is mediocre or flawed. \n\nIn many cases, the IKEA effect is taken advantage of by corporations who understand that customers may feel better about products that they had a part in creating. For instance, in the 1950s, cake mix brands arbitrarily required eggs for instant mixes in order to appeal to housewives who felt that they weren't expending enough effort by using a mix that had no supplementary ingredients.\n\nWhile the IKEA effect conjures imagery of inanimate objects we've worked to assemble, the effect can extend to other processes we've taken part in, such as having children. We may thus assume that our children are better than others because of our role in birthing or raising them. Therefore, it's critical that we recognize when the IKEA effect is at play in order to be objective in how we view both the inanimate and biological products of our labor.\n\n",
+      "question": [
+        "If you grew a tomato yourself, would it taste better than a tomato you bought from the store?"
+      ],
+      "overcome": "Overcoming the IKEA effect involves recognizing when the experience of a product is part of the product, and determining whether the result of that experience will be as high of a quality as other options requiring less or no labor. Remember that even though assembling cheaper items may seem cost-effective, your time is also a currency, and having to spend a great deal of time assembling and potentially reassembling a product is wasteful.\n\nIn terms of assessing the quality of your work, ask others, ideally experts, for their honest opinion of what you've created. Many experiments demonstrating the IKEA effect have shown that individuals may see their amateur efforts as rivaling those of professionals, when the true quality of their work is nowhere near that of an expert. Therefore, it can be helpful to have a knowledgable friend or loved one to point out where improvements can be made.",
+      "resourceName": [
+        "The Decision Lab",
+        "HBS.edu"
+      ],
+      "resource": [
+        "https://thedecisionlab.com/biases/ikea-effect",
+        "https://www.hbs.edu/ris/Publication%20Files/11-091.pdf"
+      ],
+      "example": [
+        "George just moved to a new city and wants to get some mugs for his kitchen. While George is shopping for cheap mugs online, a friend shares a nearby pottery class with him. Although the class is pricey, George knows that he'll be prouder if he creates a mug on his own. Ultimately, the mug George makes in class is of poorer quality and a higher price than the mugs he looked at online, but he feels a sense of pride when using it."
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Reactive devaluation",
+      "related": [
+        "Reactance",
+        "Reverse psychology"
+      ],
+      "tags": [
+        "contrary",
+        "negotiation"
+      ],
+      "quote": [
+        "\"Just give a smile to your enemies and they will go mad wondering what you are plotting against them.\" - Amit Abraham"
+      ],
+      "description": "Reactive devaluation happens when we disparage proposals made by another party, especially if the party is viewed as negative or antagonistic. However, if the same proposal was made by people in our own group, we may be supportive of it.\n\nIn many cases, this bias appears as ignoring information or advice from individuals that we dislike or feel that we don't share much in common with. On a greater scale, reactive devaluation can have geopolitical consequences as countries that have seemingly opposing goals refuse to negotiate with one another, leading to miscommunications in the best cases and war in the worst.\n\nBy combating reactive devaluation, we are able to consider helpful information from unlikely sources, and overcome our tribalism for our own best interests.",
+      "question": [
+        "Have you ever ignored advice from someone you disliked?"
+      ],
+      "overcome": "Overcoming reactive devaluation involves carefully considering how the source of an offer impacts your perception of it and letting go of zero sum or loss averse thinking. When negotiating, imagine that the offer is coming from someone with your best interest in mind, and decide whether it's reasonable. Consider whether the individual you're negotiating with is truly trying to undermine you, or if the offer makes sense.\n\nIf you feel that the individual you're negotiating with is truly antagonistic towards you, a better approach may be to let go of any desire to make significant gains from a negotiation at the expense of the other party. By acknowledging that a negotiation is ideally mutually beneficial, and doesn't reflect a full \"win\" on either side, you can walk away with some of your desires being met even though some desires of the antagonist will be met as well. Alternatively, if the negotiation involves sacrifice from both parties, accept that some sacrifice will need to be made for the sake of getting some needs met from the deal.",
+      "resourceName": [
+        "The Decision Lab",
+        "Stanford Law",
+        "SSRN"
+      ],
+      "resource": [
+        "https://thedecisionlab.com/biases/reactive-devaluation",
+        "https://law.stanford.edu/index.php?webauth-document=child-page/370999/doc/slspublic/Reactive%20Devaluation.pdf",
+        "https://deliverypdf.ssrn.com/delivery.php?ID=531083111122095067003127114113100110030015042050031004028031090000074115119022126024057022106062019059012065011097071071077051075048078076101124007019024124005068010062110109102000088105069029114121022114091122114124019067078104027012031093116001&amp;EXT=pdf&amp;INDEX=TRUE"
+      ],
+      "example": [
+        "Elizah is a prosecutor attempting to settle a case against a corporation. Many of the defense lawyers are from a firm that has a poor reputation for being difficult to work with, if not downright hostile. During mediation, a lawyer from the firm attempts to offer Elizah a settlement porposal, but Elizah refuses to consider the offer due to her perception of the firm. In doing so, she doesn't acknowledge that the offer is more generous than anticipated, and her subsequent offers in turn get rebuffed by the defense."
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Recency illusion",
+      "related": [
+        "Baader-Meinhof phenomenon",
+        "Appeal to novelty"
+      ],
+      "tags": [
+        "memory",
+        "recent",
+        "time",
+        "language"
+      ],
+      "quote": [
+        "\"Funny how the new things are the old things.\" - Rudyard Kipling"
+      ],
+      "description": "The recency illusion occurs when we believe that something happened more recently only because we recently noticed or remembered it. For instance, when we hear about an older film or television show for the first time, we often assume that it came out more recently because we've never heard of it. This bias was theorized in relation to linguistics, as we often assume that words or phrases were invented more recently than they actually were. \n\nOne such example of the recency illusion is the term \"spork\", a portmanteau of \"spoon\" and \"fork\". While perceived to be a new invention, the spork was first used as a utensil in the early 1800s and the term was entered in the Century Dictionary in 1909.\n\nThe negative effects of this bias occur when people's perception of the age, and thus reliability, of something is manipulated. If a vaccine is assumed to be a new technology because of the public's unfamiliarity with its approach to treating a disease, then the public may believe it to be unreliable despite decades of evidence showing its efficacy. Historical trends may also be distorted or disregarded due to a perception of novelty.\n\nBy resisting the recency illusion, we preserve the historical context on which our societies and technologies are built, and reconnect with the context that validates practices assumed to be new and thus untrustworthy.",
+      "question": [
+        "Have you ever thought that a slang term was new, only to learn it was decades (if not hundreds) of years old?"
+      ],
+      "overcome": "Overcoming the recency illusion involves looking into the context of ideas and media that we perceive to be new. We often want to be the friend or coworker who finds the next new, exciting thing to present to others, but we need to be able to bring with these ideas their well-founded basis in history or research. Although we are often pressured to be original and innovative, the quality of an idea and a demonstration of its historical validity is potentially more impactful than its novelty.",
+      "resourceName": [
+        "Grow Your Capital",
+        "Macmillan Dictionary",
+        "Oxford English Dictionary",
+        "The Kevin Eikenberry Group",
+        "Reader's Digest"
+      ],
+      "resource": [
+        "http://www.gycfa.com/blog/2016/11/06/behavioural-biases-in-investing-recency-illusion/",
+        "https://www.macmillandictionary.com/us/buzzword/entries/recency-illusion.html",
+        "https://public.oed.com/blog/a-brief-history-of-singular-they/",
+        "https://kevineikenberry.com/leadership/the-recency-illusion-what-it-is-and-what-it-means-to-leaders/",
+        "https://www.rd.com/list/modern-words-actually-old/"
+      ],
+      "example": [
+        "Hannah is a high school English teacher who's checking the grammar of her students' papers. She notices that in several of the papers, students use \"they\" as a singular pronoun. While Hannah was advised against using the singular they in her education, she knows that several dictionaries recently said its use was grammatically correct, and chalks up its use to recent social media trends. In reality, the singular pronoun has been in use since the fourteenth century."
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Reverse psychology",
+      "related": [
+        "Reactance",
+        "Reactive devaluation"
+      ],
+      "tags": [
+        "manipulation",
+        "contrary"
+      ],
+      "quote": [
+        "\"The best way to get most husbands to do something is to suggest that perhaps they're too old to do it.\" - Ann Bancroft"
+      ],
+      "description": "Reverse psychology, a manifestation of the reactance bias, occurs someone manipulates us to do something by suggesting that we do the opposite. By understanding that we may feel that our freedom is threatened and choose to respond contrarily, the manipulator requests the opposite from us, and  we end up performing the manipulator's desired action.\n\nAlthough reverse psychology may be a good strategy when dealing with contrarian individuals, the tactic can backfire and harm our relationships. If the manipulated individual notices that the tactic is being used, they may feel untrusted and confused as to why the manipulator's desires couldn't have been conveyed in a more direct manner. Likewise, we may feel violated when we notice corporations using reverse psychology in their marketing strategy, such as Lay's daring us to eat only one of their potato chips.\n\nTherefore, it is necessary for us to resist implementing reverse psychology as much as possible, and identify when others, such as companies and other entities, are using it to manipulate us. ",
+      "question": [
+        "Have you ever told someone to do something while secretly wanting them to do the opposite?"
+      ],
+      "overcome": "Overcoming the negative effects of reverse psychology involve identifying when we are being manipulated. To determine whether reverse psychology is being used, ask yourself whether what you are being asked to do is in the interest of the person asking you. For instance, if a company is asking you to look at products at other stores, consider why you are being marketed this information and follow up with your own research on the company's products. \n\nIf you believe that a friend, family member, or partner is attempting to use reverse psychology, ask them why they want you to do what they're asking you to, and what they want or need from you in that moment. You can accuse individuals of implementing reverse psychology, but consider how doing so will affect your relationship. Ultimately, doing what you're asked and overcoming your desire for reactance will prevent the manipulation and may foster more open communication, preventing future instances of both biases.",
+      "resourceName": [
+        "Very Well Mind",
+        "The Decision Lab",
+        "Effectiviology",
+        "Psych Central"
+      ],
+      "resource": [
+        "https://www.verywellmind.com/what-is-reverse-psychology-5115635",
+        "https://thedecisionlab.com/reference-guide/psychology/reactance-theory",
+        "https://effectiviology.com/reverse-psychology/#:~:text=The%20reverse%20psychology%20can%20backfire,causes%20them%20to%20give%20up.",
+        "https://psychcentral.com/health/reverse-psychology"
+      ],
+      "example": [
+        "Serena loves having quiet nights at home, but knows that her boyfriend Ahmed likes to go out. One night, Ahmed is deciding whether to go out to dinner with his friends or stay in with Serena. Serena, secretly wanting Ahmed to hang out with her, pushily insists that he go out and have fun, even texting him links to several restaurants for them to go to. Ahmed feels guilty that Serena will be home alone, and decides to not go out. "
       ]
     }
   ]

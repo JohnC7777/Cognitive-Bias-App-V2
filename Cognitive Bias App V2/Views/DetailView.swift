@@ -11,11 +11,10 @@ struct DetailView: View {
     //@Binding var thisBiase: Biase //Binding means that whatever calls this view has to pass in this var which has a type Biase. This is how I get the correct Bias data for this detail view
     let bias: Biase
     
-    @EnvironmentObject var vm : ViewModel //This is a global class (Because of @EnvironmentObject) so we can manipulate this data and it will be updated in the other views as well. The @StateObject is located in the @main struct of the app
+    @EnvironmentObject var vm : FavoriteViewModel
+    @EnvironmentObject var rvm : RecentViewModel
     
     var body: some View {
-
-        
         //Displays the tags above the list
         HStack{
             if(!bias.tags.isEmpty){
@@ -133,6 +132,9 @@ struct DetailView: View {
         .navigationTitle("\(bias.name)")
         .listStyle(.sidebar)
         .cornerRadius(15)
+        .onAppear(){
+            rvm.addItem(item: bias)
+        }
     }
 }
 
@@ -140,7 +142,7 @@ struct DetailView_Previews: PreviewProvider {
     @State static var BiasStruct: BiasData = BiasData.allBias
     static var previews: some View {
         DetailView(bias: BiasStruct.biases[0])
-            .environmentObject(ViewModel())
+            .environmentObject(FavoriteViewModel())
     }
 }
 
